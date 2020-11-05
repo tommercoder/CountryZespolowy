@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitiesNav.election_act">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingTop="18dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize">
+
+            //40x40 icon
+
+            <ImageView
+                android:id="@+id/back_btn_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+               android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:src="@drawable/back_icon"
+
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bgb"
+            android:padding="8dp"
+            android:text="Elections"
+            android:textAllCaps="true"
+            android:textSize="36sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/background_border_choosing_el">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/baloo"
+                    android:padding="30dp"
+                    android:text="City elections"
+                    android:textSize="25sp" />
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/available_city"
+                    android:padding="15dp"
+                    android:fontFamily="@font/baloo"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    />-->
+                <Button
+                    android:id="@+id/city_election_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="See more" />
+
+
+            </RelativeLayout>
+            //Local election
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/election" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+
+                android:background="@drawable/background_border_choosing_el">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Mayor election"
+                    android:textSize="25sp" />
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+
+                     android:id="@+id/available_mayor"
+                     android:padding="5dp"
+                     android:fontFamily="@font/baloo"
+                     />-->
+                <Button
+                    android:id="@+id/mayor_election_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                   android:textColor="@color/colorPrimary"
+                    android:text="See more" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/chairman" />
+
+
+            </RelativeLayout>
+            //Local election
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+
+                android:background="@drawable/background_border_choosing_el">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="President election"
+                    android:textSize="25sp" />
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/available_president"
+                    android:padding="5dp"
+                    android:fontFamily="@font/baloo"
+                    />-->
+                <Button
+                    android:id="@+id/president_election_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="See more"
+                    android:textColor="@color/colorPrimary"/>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/white_house"
+
+                    />
+
+
+            </RelativeLayout>
+            //Local election
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
