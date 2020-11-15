@@ -12,6 +12,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.country.ActivitiesNav.election_act;
+import com.example.country.ActivitiesNav.profile_act;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -98,7 +99,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
                 break;
             case R.id.profile_id:
-
+                startActivity(new Intent(mainmenu.this, profile_act.class));
 
                 break;
             case R.id.settingsBtn:

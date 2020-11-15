@@ -1601,6 +1601,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_profile_city
+drawable ic_profile_passport
+drawable ic_profile_phone
 drawable logout_icon
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1631,6 +1634,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile_icon
 drawable referendum_icon
 drawable settingsicon
 drawable test_custom_background
@@ -1735,6 +1739,7 @@ id bottom
 id bounce
 id btnLogin
 id btnRegister
+id button
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1832,6 +1837,11 @@ id honorRequest
 id icon
 id icon_group
 id icon_only
+id id_user_city
+id id_user_email
+id id_user_name
+id id_user_passport
+id id_user_phone
 id ifRoom
 id ignore
 id ignoreRequest
@@ -1922,6 +1932,7 @@ id position
 id postLayout
 id president_election_id
 id profile_id
+id profile_image
 id progressBar
 id progressBar2
 id progress_circular
@@ -2114,6 +2125,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_election_act
 layout activity_main
+layout activity_profile_act
 layout activity_register_window
 layout custom_dialog
 layout design_bottom_navigation_item

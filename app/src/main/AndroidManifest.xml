@@ -14,6 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="register_window"></activity>
+        <activity android:name=".ActivitiesNav.profile_act"></activity>
         <activity android:name=".ActivitiesNav.election_act" />
         <activity android:name=".mainmenu">
             <intent-filter>

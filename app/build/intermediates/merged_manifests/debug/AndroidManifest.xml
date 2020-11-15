@@ -23,6 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.country.register_window" />
+        <activity android:name="com.example.country.ActivitiesNav.profile_act" />
         <activity android:name="com.example.country.ActivitiesNav.election_act" />
         <activity android:name="com.example.country.mainmenu" >
             <intent-filter>
