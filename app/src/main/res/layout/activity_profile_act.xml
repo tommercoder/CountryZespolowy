@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivitiesNav.profile_act">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@drawable/heades_gradient">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile_icon" />
+
+        <TextView
+            android:id="@+id/id_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profile_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="Name Surname"
+            android:textSize="20sp"
+            android:fontFamily="@font/bgb"
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/id_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_user_name"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_image"
+            android:fontFamily="@font/bgb"
+            android:includeFontPadding="false"
+            android:padding="10dp"
+            android:text="user Mail"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="6dp"
+            android:background="#00FF0000"
+            android:text="Edit"
+            android:textColorLink="#2196F3"
+            android:fontFamily="@font/bgb"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/id_user_city"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:drawableLeft="@drawable/ic_profile_city"
+            android:fontFamily="@font/bgb"
+            android:padding="10dp"
+            android:text="City"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_user_passport"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:drawableLeft="@drawable/ic_profile_passport"
+            android:fontFamily="@font/bgb"
+            android:padding="10dp"
+            android:text="Passport"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:drawableLeft="@drawable/ic_profile_phone"
+            android:fontFamily="@font/bgb"
+            android:padding="10dp"
+            android:text="Phone"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
