@@ -18,6 +18,7 @@ com/example/country/register_window.java
  com.example.country.register_window$2$1$1$1$1
 com/example/country/mainmenu.java
  com.example.country.mainmenu
+ com.example.country.mainmenu$1
 com/example/country/MainActivity.java
  com.example.country.MainActivity
  com.example.country.MainActivity$1

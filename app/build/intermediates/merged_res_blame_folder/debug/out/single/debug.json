@@ -208,12 +208,12 @@
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\burger_btn.png"
     },
     {
-        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settingsicon.png.flat",
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\settingsicon.png"
+    },
+    {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\font_baloo.ttf.flat",
