@@ -36,10 +36,10 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         ////
         //setSupportActionBar(toolbar1);
         ////
-        navigationView.bringToFront();
+        navigationView.bringToFront();//setting drawer to fron of screen
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar1, R.string.navigation_drawer_open, R.string.navigation_drawer_close);//burger button
         drawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
+        toggle.syncState();//turning burger button off after drawer was opened
 
         navigationView.setNavigationItemSelectedListener(this);//clickable buttons
 
@@ -51,7 +51,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
     }
 
     @Override
-    public void onBackPressed() {
+    public void onBackPressed() {//android back button
 
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);//tapping close
@@ -76,15 +76,15 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
                 startActivity(new Intent(mainmenu.this, election_act.class));
                 break;
-            case R.id.Local_solutions_id:
+            //case R.id.Local_solutions_id:
 
-                break;
-            case R.id.referendum_id:
+                //break;
+           // case R.id.referendum_id:
 
-                break;
-            case R.id.chat_id:
+               // break;
+            //case R.id.chat_id:
 
-                break;
+                //break;
             case R.id.logout_id:
                 FirebaseAuth.getInstance().signOut();
                 //Intent logout = new Intent(mainmenu.this, MainActivity.class);
@@ -101,10 +101,13 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
 
                 break;
+            case R.id.settingsBtn:
+
+                break;
         }
 
-        drawerLayout.closeDrawer(GravityCompat.START);
+        drawerLayout.closeDrawer(GravityCompat.START);//after pressing closing the drawer
 
-        return false;//выделяет выбраный пункт в менюшке слева
+        return false;//checking what was clicked
     }
 }

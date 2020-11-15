@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".mainmenu"
     android:fitsSystemWindows="true"
+    tools:openDrawer="start"
 
     tools:ignore="MissingClass">
 //navigation bar design
@@ -18,8 +19,8 @@
         app:headerLayout="@layout/header"
         app:menu="@menu/burger_res"
         android:layout_gravity="start"
-        app:itemIconTint="@color/blue"
-        />
+        app:itemIconTint="@color/blue"/> <!--icon colors changed-->
+
 
     <androidx.appcompat.widget.Toolbar
 

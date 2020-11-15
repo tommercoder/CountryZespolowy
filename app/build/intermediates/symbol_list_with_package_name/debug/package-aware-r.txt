@@ -1632,6 +1632,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable referendum_icon
+drawable settingsicon
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1646,7 +1647,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id Local_solutions_id
 id META
 id NO_DEBUG
 id SHIFT
@@ -1743,7 +1743,6 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
-id chat_id
 id checkbox
 id checked
 id chip
@@ -1930,7 +1929,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id referendum_id
 id registerButton
 id reisterButton
 id reverseSawtooth
@@ -1962,6 +1960,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settingsBtn
 id shortcut
 id showCustom
 id showHome

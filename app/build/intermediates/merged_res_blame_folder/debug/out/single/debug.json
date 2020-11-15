@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_settingsicon.xml.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\settingsicon.xml"
+    },
+    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_election_act.xml.flat",
         "source": "D:\\Country\\app\\src\\main\\res\\layout\\activity_election_act.xml"
     },
@@ -24,12 +28,20 @@
         "source": "D:\\Country\\app\\src\\main\\res\\drawable-v24\\election.png"
     },
     {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\settingsicon.png"
+    },
+    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_callus_icon.xml.flat",
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\callus_icon.xml"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\settingsicon.png"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -68,6 +80,10 @@
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\emailus_icon.xml"
     },
     {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\settingsicon.png"
+    },
+    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -76,12 +92,12 @@
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_chart_icon.png.flat",
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\chart_icon.png"
+    },
+    {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_home_icon.xml.flat",
@@ -114,6 +130,10 @@
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\settingsicon.png"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
@@ -160,6 +180,10 @@
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\chart_icon.png"
     },
     {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\settingsicon.png"
+    },
+    {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
@@ -186,6 +210,10 @@
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Country\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settingsicon.png.flat",
+        "source": "D:\\Country\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\settingsicon.png"
     },
     {
         "merged": "D:\\Country\\app\\build\\intermediates\\res\\merged\\debug\\font_baloo.ttf.flat",
