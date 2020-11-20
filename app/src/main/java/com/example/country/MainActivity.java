@@ -92,8 +92,6 @@ public class MainActivity extends AppCompatActivity {
         {
             Toast.makeText(MainActivity.this, "Please login", Toast.LENGTH_SHORT).show();
         }
-
-        //
     }
     private void showMainMenuWindow() {
 

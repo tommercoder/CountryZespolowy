@@ -1,4 +1,4 @@
-#Sun Nov 15 22:07:52 EET 2020
-base.0=D\:\\CountryZespolowy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri Nov 20 18:04:26 CET 2020
+base.0=/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
