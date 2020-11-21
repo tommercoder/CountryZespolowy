@@ -93,7 +93,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                // startActivity(logout);
                 break;
             case R.id.phoneSup_id:
-
+                startActivity(new Intent(mainmenu.this, phone.class));
                 break;
             case R.id.emailSup_id:
 

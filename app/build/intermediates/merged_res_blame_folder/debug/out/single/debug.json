@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_burger_btn.png.flat",
-        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/burger_btn.png"
-    },
-    {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_burger_btn.png.flat",
         "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/burger_btn.png"
+    },
+    {
+        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_burger_btn.png.flat",
+        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/burger_btn.png"
     },
     {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/font_baloo.ttf.flat",
@@ -118,6 +118,10 @@
     {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_callus_icon.xml.flat",
         "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/callus_icon.xml"
+    },
+    {
+        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_phone.xml.flat",
+        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/res/layout/activity_phone.xml"
     },
     {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/menu-v26_burger_res.xml.flat",
