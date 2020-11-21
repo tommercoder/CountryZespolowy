@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.country.email" />
         <activity android:name="com.example.country.phone" />
         <activity android:name="com.example.country.register_window" />
         <activity android:name="com.example.country.ActivitiesNav.profile_act" />

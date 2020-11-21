@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12">
 
 
-        <RelativeLayout
+        a<RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="162dp"
             android:background="@drawable/background_border_choosing_el">

@@ -1,17 +1,9 @@
-com/example/country/MainActivity.java
- com.example.country.MainActivity
- com.example.country.MainActivity$1
- com.example.country.MainActivity$2
- com.example.country.MainActivity$3
- com.example.country.MainActivity$4
-com/example/country/ActivitiesNav/profile_act.java
- com.example.country.ActivitiesNav.profile_act
- com.example.country.ActivitiesNav.profile_act$1
- com.example.country.ActivitiesNav.profile_act$1$1
-com/example/country/Models/User.java
- com.example.country.Models.User
-com/example/country/BuildConfig.java
- com.example.country.BuildConfig
+com/example/country/ActivitiesNav/election_act.java
+ com.example.country.ActivitiesNav.election_act
+ com.example.country.ActivitiesNav.election_act$1
+ com.example.country.ActivitiesNav.election_act$2
+ com.example.country.ActivitiesNav.election_act$3
+ com.example.country.ActivitiesNav.election_act$4
 com/example/country/register_window.java
  com.example.country.register_window
  com.example.country.register_window$1
@@ -22,15 +14,27 @@ com/example/country/register_window.java
  com.example.country.register_window$2$1$1$1$1
  com.example.country.register_window$2$2
  com.example.country.register_window$2$3
-com/example/country/ActivitiesNav/election_act.java
- com.example.country.ActivitiesNav.election_act
- com.example.country.ActivitiesNav.election_act$1
- com.example.country.ActivitiesNav.election_act$2
- com.example.country.ActivitiesNav.election_act$3
- com.example.country.ActivitiesNav.election_act$4
-com/example/country/mainmenu.java
- com.example.country.mainmenu
+com/example/country/ActivitiesNav/profile_act.java
+ com.example.country.ActivitiesNav.profile_act
+ com.example.country.ActivitiesNav.profile_act$1
+ com.example.country.ActivitiesNav.profile_act$1$1
+com/example/country/Models/User.java
+ com.example.country.Models.User
+com/example/country/BuildConfig.java
+ com.example.country.BuildConfig
 com/example/country/phone.java
  com.example.country.phone
  com.example.country.phone$1
  com.example.country.phone$2
+com/example/country/MainActivity.java
+ com.example.country.MainActivity
+ com.example.country.MainActivity$1
+ com.example.country.MainActivity$2
+ com.example.country.MainActivity$3
+ com.example.country.MainActivity$4
+com/example/country/mainmenu.java
+ com.example.country.mainmenu
+com/example/country/email.java
+ com.example.country.email
+ com.example.country.email$1
+ com.example.country.email$2

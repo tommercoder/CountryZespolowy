@@ -204,6 +204,10 @@
         "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_passport.png"
     },
     {
+        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_email.xml.flat",
+        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/res/layout/activity_email.xml"
+    },
+    {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_passport.png.flat",
         "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_passport.png"
     },

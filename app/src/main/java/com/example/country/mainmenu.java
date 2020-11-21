@@ -96,7 +96,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(new Intent(mainmenu.this, phone.class));
                 break;
             case R.id.emailSup_id:
-
+                startActivity(new Intent(mainmenu.this, email.class));
                 break;
             case R.id.profile_id:
                 startActivity(new Intent(mainmenu.this, profile_act.class));
