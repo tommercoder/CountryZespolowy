@@ -1729,6 +1729,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backToLogin
+id back_btn
 id back_btn_pressed
 id barrier
 id baseline
@@ -1805,6 +1806,7 @@ id edit_query
 id election_id
 id emailField
 id emailSup_id
+id email_now
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1846,6 +1848,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView10
+id imageView2
 id imageView3
 id info
 id invisible
@@ -1927,6 +1931,7 @@ id peekHeight
 id percent
 id phoneField
 id phoneSup_id
+id phone_now
 id pin
 id position
 id postLayout
@@ -2023,7 +2028,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView12
 id textView2
+id textView5
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2124,7 +2131,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_election_act
+layout activity_email
 layout activity_main
+layout activity_phone
 layout activity_profile_act
 layout activity_register_window
 layout custom_dialog

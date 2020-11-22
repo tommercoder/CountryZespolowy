@@ -33,7 +33,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -80,10 +79,8 @@ public class register_window extends AppCompatActivity {
 
                 progressBar.setVisibility(View.VISIBLE);
 
-                //final String Email = EmailText.getText().toString();
                 final String Phone = PhoneText.getText().toString();
                 final String Passport = PassportText.getText().toString();
-                //final String Password = PasswordText.getText().toString();
                 final String City = CityText.getText().toString();
 
                 String Email = EmailText.getText().toString().trim();
@@ -216,11 +213,41 @@ public class register_window extends AppCompatActivity {
                 });
 
 
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                auth.signInWithEmailAndPassword(Email, Password)
+                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                            @Override
+                            public void onSuccess(AuthResult authResult) {
+                                Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+
+                                startActivity(new Intent(register_window.this, mainmenu.class));
+                                progressBar.setVisibility(View.INVISIBLE);
+                                finish();
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(register_window.this, "The email or password is not correct", Toast.LENGTH_LONG).show();
+                        progressBar.setVisibility(View.INVISIBLE);
+                        //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
+                    }
+                });
+
             }
-        });
+
+
+            });
+
+
+        }
 
     }
-}
+
           /*auth.createUserWithEmailAndPassword(Email, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
