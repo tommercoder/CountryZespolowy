@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".email"></activity>
+
+        <activity android:name=".email" />
         <activity android:name=".phone" />
         <activity android:name=".register_window" />
         <activity android:name=".ActivitiesNav.profile_act" />

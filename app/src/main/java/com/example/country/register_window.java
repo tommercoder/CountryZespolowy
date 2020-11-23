@@ -89,26 +89,31 @@ public class register_window extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(Email)) {
                     EmailText.setError("Email is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(Passport)) {
                     PassportText.setError("Passport  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(Phone)) {
                     PhoneText.setError("Phone  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(City)) {
                     CityText.setError("City  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (Password.length() < 6) {
                     PasswordText.setError("Password  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
@@ -126,8 +131,6 @@ public class register_window extends AppCompatActivity {
                             reff_to_users.addListenerForSingleValueEvent(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                    //list adding passports
-                                    //all unique passports from Users
                                     List<String> list = new ArrayList<>();
                                     if (!list.isEmpty())
                                         list.clear();
@@ -172,6 +175,31 @@ public class register_window extends AppCompatActivity {
                                                                         }
                                                                     });
 
+                                                            try {
+                                                                Thread.sleep(500);
+                                                                auth.signInWithEmailAndPassword(Email, Password)
+                                                                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                                                                            @Override
+                                                                            public void onSuccess(AuthResult authResult) {
+                                                                                Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+
+                                                                                startActivity(new Intent(register_window.this, mainmenu.class));
+                                                                                progressBar.setVisibility(View.INVISIBLE);
+                                                                                finish();
+                                                                            }
+                                                                        }).addOnFailureListener(new OnFailureListener() {
+                                                                    @Override
+                                                                    public void onFailure(@NonNull Exception e) {
+                                                                        Toast.makeText(register_window.this, "The email or password is not correct", Toast.LENGTH_LONG).show();
+                                                                        progressBar.setVisibility(View.INVISIBLE);
+                                                                        //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
+                                                                    }
+                                                                });
+                                                            } catch (InterruptedException e) {
+                                                                e.printStackTrace();
+                                                            }
+
+
                                                         }
                                                         else {
                                                             Toast.makeText(register_window.this, "Fail register", Toast.LENGTH_LONG).show();
@@ -212,30 +240,8 @@ public class register_window extends AppCompatActivity {
                 });
 
 
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
 
-                auth.signInWithEmailAndPassword(Email, Password)
-                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                            @Override
-                            public void onSuccess(AuthResult authResult) {
-                                Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
 
-                                startActivity(new Intent(register_window.this, mainmenu.class));
-                                progressBar.setVisibility(View.INVISIBLE);
-                                finish();
-                            }
-                        }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(register_window.this, "The email or password is not correct", Toast.LENGTH_LONG).show();
-                        progressBar.setVisibility(View.INVISIBLE);
-                        //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
-                    }
-                });
 
             }
 

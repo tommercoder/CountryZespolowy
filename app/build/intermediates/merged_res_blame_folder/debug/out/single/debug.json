@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_burger_btn.png.flat",
-        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/burger_btn.png"
-    },
-    {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_burger_btn.png.flat",
         "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/burger_btn.png"
+    },
+    {
+        "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_burger_btn.png.flat",
+        "source": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/burger_btn.png"
     },
     {
         "merged": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/res/merged/debug/font_baloo.ttf.flat",

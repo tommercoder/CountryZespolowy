@@ -24,7 +24,7 @@
 14-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:8:22-66
 15
 16    <application
-16-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:10:5-34:19
+16-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:10:5-35:19
 17        android:allowBackup="true"
 17-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,42 +42,42 @@
 25        android:theme="@style/AppTheme" >
 25-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:16:9-40
 26        <activity android:name="com.example.country.email" />
-26-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:17:9-52
-26-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:17:19-40
+26-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:9-43
+26-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:19-40
 27        <activity android:name="com.example.country.phone" />
-27-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:9-43
-27-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:19-40
+27-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:9-43
+27-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:19-40
 28        <activity android:name="com.example.country.register_window" />
-28-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:9-53
-28-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:19-50
+28-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:9-53
+28-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:19-50
 29        <activity android:name="com.example.country.ActivitiesNav.profile_act" />
-29-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:9-63
-29-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:19-60
+29-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:9-63
+29-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:19-60
 30        <activity android:name="com.example.country.ActivitiesNav.election_act" />
-30-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:9-64
-30-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:19-61
+30-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:9-64
+30-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:19-61
 31        <activity android:name="com.example.country.mainmenu" >
-31-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:9-26:20
-31-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:19-43
+31-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:9-27:20
+31-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:19-43
 32            <intent-filter>
-32-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:13-25:29
+32-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:13-26:29
 33                <action android:name="android.intent.action.DEFAULT" />
-33-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:17-72
-33-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:25-69
+33-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:25:17-72
+33-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:25:25-69
 34            </intent-filter>
 35        </activity>
 36        <activity android:name="com.example.country.MainActivity" >
-36-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:27:9-33:20
-36-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:27:19-47
+36-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:9-34:20
+36-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:19-47
 37            <intent-filter>
-37-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:13-32:29
+37-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:13-33:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:17-69
-38-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:25-66
+38-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:30:17-69
+38-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:30:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:31:17-77
-40-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:31:27-74
+40-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:32:17-77
+40-->/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:32:27-74
 41            </intent-filter>
 42        </activity>
 43        <activity

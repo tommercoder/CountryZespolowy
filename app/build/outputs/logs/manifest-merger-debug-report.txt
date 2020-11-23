@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [com.google.android.material:material:1.2.1] /home/golem/.gradle/caches/transforms-2/files-2.1/f8aaae792a30a1f56b0d58cd10f75c0e/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/golem/.gradle/caches/transforms-2/files-2.1/0a5045bc66945a7765a6f0a1f5ff6c5e/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/golem/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -44,20 +44,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/golem/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/golem/.gradle/caches/transforms-2/files-2.1/3efae7f87f8fb15dcf1f34473eb75964/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/golem/.gradle/caches/transforms-2/files-2.1/4d43431ba977acfaa5f80826d23a5d96/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/golem/.gradle/caches/transforms-2/files-2.1/bc08a9b8e8d88a4a706f5b1d66b83db9/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:2:11-69
@@ -86,7 +86,7 @@ ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/
 	android:name
 		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:8:22-66
 application
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:10:5-34:19
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:10:5-35:19
 MERGED from [com.google.android.material:material:1.2.1] /home/golem/.gradle/caches/transforms-2/files-2.1/f8aaae792a30a1f56b0d58cd10f75c0e/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/golem/.gradle/caches/transforms-2/files-2.1/f8aaae792a30a1f56b0d58cd10f75c0e/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/golem/.gradle/caches/transforms-2/files-2.1/0a5045bc66945a7765a6f0a1f5ff6c5e/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -126,49 +126,49 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/golem
 	android:theme
 		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.country.email
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:17:9-52
-	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:17:19-40
-activity#com.example.country.phone
 ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:9-43
 	android:name
 		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:18:19-40
+activity#com.example.country.phone
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:9-43
+	android:name
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:19-40
 activity#com.example.country.register_window
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:9-53
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:19:19-50
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:19-50
 activity#com.example.country.ActivitiesNav.profile_act
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:9-63
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:9-63
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:20:19-60
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:19-60
 activity#com.example.country.ActivitiesNav.election_act
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:9-64
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:9-64
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:21:19-61
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:19-61
 activity#com.example.country.mainmenu
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:9-26:20
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:9-27:20
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:22:19-43
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:19-43
 intent-filter#action:name:android.intent.action.DEFAULT
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:23:13-25:29
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:13-26:29
 action#android.intent.action.DEFAULT
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:17-72
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:25:17-72
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:24:25-69
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:25:25-69
 activity#com.example.country.MainActivity
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:27:9-33:20
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:27:19-47
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/src/main/AndroidManifest.xml
