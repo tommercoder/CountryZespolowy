@@ -173,6 +173,31 @@ public class register_window extends AppCompatActivity {
                                                                         }
                                                                     });
 
+                                                            try {
+                                                                Thread.sleep(1000);
+                                                                auth.signInWithEmailAndPassword(Email, Password)
+                                                                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                                                                            @Override
+                                                                            public void onSuccess(AuthResult authResult) {
+                                                                                Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+
+                                                                                startActivity(new Intent(register_window.this, mainmenu.class));
+                                                                                progressBar.setVisibility(View.INVISIBLE);
+                                                                                finish();
+                                                                            }
+                                                                        }).addOnFailureListener(new OnFailureListener() {
+                                                                    @Override
+                                                                    public void onFailure(@NonNull Exception e) {
+                                                                        Toast.makeText(register_window.this, "LOGIN", Toast.LENGTH_LONG).show();
+                                                                        progressBar.setVisibility(View.INVISIBLE);
+                                                                        //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
+                                                                    }
+                                                                });
+                                                            } catch (InterruptedException e) {
+                                                                e.printStackTrace();
+                                                            }
+
+
                                                         }
                                                         else {
                                                             Toast.makeText(register_window.this, "Fail register", Toast.LENGTH_LONG).show();
@@ -213,30 +238,8 @@ public class register_window extends AppCompatActivity {
                 });
 
 
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
 
-                auth.signInWithEmailAndPassword(Email, Password)
-                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                            @Override
-                            public void onSuccess(AuthResult authResult) {
-                                Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
 
-                                startActivity(new Intent(register_window.this, mainmenu.class));
-                                progressBar.setVisibility(View.INVISIBLE);
-                                finish();
-                            }
-                        }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(register_window.this, "The email or password is not correct", Toast.LENGTH_LONG).show();
-                        progressBar.setVisibility(View.INVISIBLE);
-                        //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
-                    }
-                });
 
             }
 
