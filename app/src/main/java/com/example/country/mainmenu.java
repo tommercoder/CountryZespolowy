@@ -3,6 +3,7 @@ package com.example.country;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -57,14 +58,10 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);//tapping close
-
+            //Toast.makeText(mainmenu.this, "2222222", Toast.LENGTH_SHORT).show();
         } else {
-
-
-
-
+            //Toast.makeText(mainmenu.this, "1111111", Toast.LENGTH_SHORT).show();
         }
-
     }
 
     @Override
@@ -101,7 +98,6 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 break;
             case R.id.profile_id:
                 startActivity(new Intent(mainmenu.this, profile_act.class));
-
                 break;
             case R.id.settingsBtn:
 
