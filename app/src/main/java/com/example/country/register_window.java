@@ -83,32 +83,37 @@ public class register_window extends AppCompatActivity {
                 final String Passport = PassportText.getText().toString();
                 final String City = CityText.getText().toString();
 
-                String Email = EmailText.getText().toString().trim();
-                String Password = PasswordText.getText().toString().trim();
+                final String Email = EmailText.getText().toString().trim();
+                final String Password = PasswordText.getText().toString().trim();
 
 
                 if (TextUtils.isEmpty(Email)) {
                     EmailText.setError("Email is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(Passport)) {
                     PassportText.setError("Passport  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(Phone)) {
                     PhoneText.setError("Phone  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (TextUtils.isEmpty(City)) {
                     CityText.setError("City  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
                 if (Password.length() < 6) {
                     PasswordText.setError("Password  is Required.");
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
 
@@ -126,8 +131,6 @@ public class register_window extends AppCompatActivity {
                             reff_to_users.addListenerForSingleValueEvent(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                    //list adding passports
-                                    //all unique passports from Users
                                     List<String> list = new ArrayList<>();
                                     if (!list.isEmpty())
                                         list.clear();
@@ -153,7 +156,6 @@ public class register_window extends AppCompatActivity {
                                                     @Override
                                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                                         if (task.isSuccessful()) {
-
                                                             User user = new User();
 
                                                             user.setEmail(EmailText.getText().toString());
@@ -161,8 +163,11 @@ public class register_window extends AppCompatActivity {
                                                             user.setPhone(PhoneText.getText().toString());
                                                             user.setPassword(PasswordText.getText().toString());
                                                             user.setCity(CityText.getText().toString());
-
-                                                        final DatabaseReference users = FirebaseDatabase.getInstance().getReference("Users");
+                                                            user.setVotedCity("no");
+                                                            user.setVotedMayor("no");
+                                                            user.setVotedPresident("no");
+                                                            user.setVotedVer("no");
+                                                            final DatabaseReference users = FirebaseDatabase.getInstance().getReference("Users");
 
                                                             users.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                                                     .setValue(user)
@@ -174,7 +179,7 @@ public class register_window extends AppCompatActivity {
                                                                     });
 
                                                             try {
-                                                                Thread.sleep(1000);
+                                                                Thread.sleep(500);
                                                                 auth.signInWithEmailAndPassword(Email, Password)
                                                                         .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                                                                             @Override
@@ -188,7 +193,7 @@ public class register_window extends AppCompatActivity {
                                                                         }).addOnFailureListener(new OnFailureListener() {
                                                                     @Override
                                                                     public void onFailure(@NonNull Exception e) {
-                                                                        Toast.makeText(register_window.this, "LOGIN", Toast.LENGTH_LONG).show();
+                                                                        Toast.makeText(register_window.this, "The email or password is not correct", Toast.LENGTH_LONG).show();
                                                                         progressBar.setVisibility(View.INVISIBLE);
                                                                         //Snackbar.make(root, "Eroor Sign In " + e.getMessage(), Snackbar.LENGTH_SHORT).show();
                                                                     }
@@ -209,8 +214,9 @@ public class register_window extends AppCompatActivity {
 
                                     } else {
                                         Log.d("e", "quals");
-                                        Toast.makeText(register_window.this, "You already have an account", Toast.LENGTH_LONG).show();
-
+                                        Toast.makeText(register_window.this, "You already have an account,please login", Toast.LENGTH_LONG).show();
+                                        startActivity(new Intent(register_window.this,MainActivity.class));
+                                        //finish();
                                     }
 
 
@@ -244,12 +250,12 @@ public class register_window extends AppCompatActivity {
             }
 
 
-            });
+        });
 
-
-        }
 
     }
+
+}
 
           /*auth.createUserWithEmailAndPassword(Email, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override

@@ -3,4 +3,9 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_sure">VOTE</string>
+    <string name="sure">Are you sure you want to vote for</string>
+
+    <string name="vote">vote</string>
+    <string name="voteback">back</string>
 </resources>

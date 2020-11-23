@@ -1,16 +1,20 @@
 package com.example.country.Models;
 
 public class User {
-    private String email,passport,phone, password,city;
+    private String email,passport,phone, password,city,votedCity,votedMayor,votedPresident,votedVer;
 
     public User(){}
 
-    public User(String email, String passport, String phone, String password, String city) {
+    public User(String email, String passport, String phone, String password, String city,String votedCity,String votedMayor,String votedPresident,String votedVer) {
         this.email = email;
         this.passport = passport;
         this.phone = phone;
         this.password = password;
         this.city = city;
+        this.votedCity = votedCity;
+        this.votedMayor = votedMayor;
+        this.votedPresident = votedPresident;
+        this.votedVer = votedVer;
     }
 
     public String getCity()
@@ -23,6 +27,14 @@ public class User {
     }
     public String getEmail() {
         return email;
+    }
+
+    public String getVotedVer() {
+        return votedVer;
+    }
+
+    public void setVotedVer(String votedVer) {
+        this.votedVer = votedVer;
     }
 
     public void setEmail(String email) {
@@ -51,5 +63,29 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getVotedCity() {
+        return votedCity;
+    }
+
+    public void setVotedCity(String votedCity) {
+        this.votedCity = votedCity;
+    }
+
+    public String getVotedMayor() {
+        return votedMayor;
+    }
+
+    public void setVotedMayor(String votedMayor) {
+        this.votedMayor = votedMayor;
+    }
+
+    public String getVotedPresident() {
+        return votedPresident;
+    }
+
+    public void setVotedPresident(String votedPresident) {
+        this.votedPresident = votedPresident;
     }
 }

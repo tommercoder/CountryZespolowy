@@ -22,7 +22,7 @@ public class profile_act extends AppCompatActivity {
     FirebaseDatabase db;
     DatabaseReference users, government;
     FirebaseAuth.AuthStateListener listener;
-
+    TextView userName,userEmail,userCity,userPassport,userPhone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class profile_act extends AppCompatActivity {
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-        TextView userName,userEmail,userCity,userPassport,userPhone;
+
 
         users = FirebaseDatabase.getInstance().getReference("Users");
         government = FirebaseDatabase.getInstance().getReference("GovermentUsersDB");
@@ -43,8 +43,6 @@ public class profile_act extends AppCompatActivity {
         userPhone = (TextView)findViewById(R.id.id_user_phone);
 
         if(user != null) {
-
-
             users.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {

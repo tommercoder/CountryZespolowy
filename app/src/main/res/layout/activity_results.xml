@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:paddingTop="60dp"
+    app:cardUseCompatPadding="true"
+    android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/CityWinnerSign"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="City winner"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/relativeCand"
+            android:visibility="gone"
+            >
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/nametext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img1"
+
+                    android:text=" Demo Name"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/party_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nametext"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/age_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/party_id"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="Age"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="40dp"
+            android:id="@+id/CityAllvotes"
+            android:text="See all city candidates votes"
+            android:background="@drawable/heades_gradient"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/mayorWinnerSign"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Mayor winner"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            />
+        <RelativeLayout
+            android:visibility="gone"
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/mayorWinner"
+            >
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/nametext2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img2"
+
+                    android:text=" Demo Name"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id_mayor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nametext2"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/age_id_mayor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/party_id_mayor"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="Age"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <!--<Button
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/button_border"
+                    android:fontFamily="@font/baloo"
+                    android:text="Vote"
+                    android:textSize="20dp" />-->
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:id="@+id/MayorAllvotes"
+            android:layout_margin="10dp"
+            android:layout_height="40dp"
+            android:text="See all candidates for mayor votes"
+            android:background="@drawable/heades_gradient"
+            />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/presidentWinnerSign"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="President winner"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            />
+        <RelativeLayout
+            android:visibility="gone"
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/PresidentWinner"
+            >
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/nametext3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img3"
+
+                    android:text=" Demo Name"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id_president"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nametext3"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/img3"
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/age_id_president"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/party_id_president"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/img3"
+                    android:text="Age"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <!--<Button
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/button_border"
+                    android:fontFamily="@font/baloo"
+                    android:text="Vote"
+                    android:textSize="20dp" />-->
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:id="@+id/PresidentAllvotes"
+            android:layout_margin="10dp"
+            android:layout_height="40dp"
+            android:text="See all candidates for president votes"
+            android:background="@drawable/heades_gradient"
+            />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/partytWinnerSign"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Party winner"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            />
+        <RelativeLayout
+            android:visibility="gone"
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/partyWinnerId"
+            >
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/party_id_p"
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:id="@+id/PartyAllvotes"
+            android:layout_margin="10dp"
+            android:layout_height="40dp"
+            android:text="See all parties votes"
+            android:background="@drawable/heades_gradient"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

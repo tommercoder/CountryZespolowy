@@ -13,6 +13,11 @@
             android:title="Election"
 
             android:icon="@drawable/chart_icon"/>
+        <item
+            android:id="@+id/results_id"
+            android:title="Results"
+
+            android:icon="@drawable/chart_icon"/>
         <!--<item
             android:id="@+id/Local_solutions_id"
             android:title="Local"

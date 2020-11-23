@@ -14,11 +14,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".email"></activity>
+        <activity android:name=".ActivitiesNav.forElections.VerkhovnaRadaElection"></activity>
+        <activity android:name=".ActivitiesNav.results" />
+        <activity android:name=".email" />
         <activity android:name=".phone" />
         <activity android:name=".register_window" />
         <activity android:name=".ActivitiesNav.profile_act" />
         <activity android:name=".ActivitiesNav.election_act" />
+        <activity android:name=".ActivitiesNav.forElections.city_elections" />
+        <activity android:name=".ActivitiesNav.forElections.mayor_elections" />
+        <activity android:name=".ActivitiesNav.forElections.president_election" />
         <activity android:name=".mainmenu">
             <intent-filter>
                 <action android:name="android.intent.action.DEFAULT" />

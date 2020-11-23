@@ -203,6 +203,57 @@
 
 
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+
+                android:background="@drawable/background_border_choosing_el">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:paddingRight="20dp"
+                    android:text="Verkhovna Rada election"
+                    android:textSize="25sp" />
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/available_president"
+                    android:padding="5dp"
+                    android:fontFamily="@font/baloo"
+                    />-->
+                <Button
+                    android:id="@+id/VerkhovnaRada_election_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="See more"
+                    android:textColor="@color/colorPrimary"/>
+
+
+
+
+            </RelativeLayout>
+            //Local election
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </RelativeLayout>
 
 
     </LinearLayout>

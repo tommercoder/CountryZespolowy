@@ -13,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.country.ActivitiesNav.election_act;
 import com.example.country.ActivitiesNav.profile_act;
+import com.example.country.ActivitiesNav.results;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -104,6 +105,9 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 break;
             case R.id.settingsBtn:
 
+                break;
+            case R.id.results_id:
+                startActivity(new Intent(mainmenu.this, results.class));
                 break;
         }
 
