@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/golem/AndroidStudioProjects/Android_1/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/golem/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

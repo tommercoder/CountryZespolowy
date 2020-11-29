@@ -35,7 +35,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         navigationView = findViewById(R.id.nav_view);
         toolbar1 = findViewById(R.id.toolbar);
         ////
-        //setSupportActionBar(toolbar1);
+        setSupportActionBar(toolbar1);
         ////
         navigationView.bringToFront();//setting drawer to fron of screen
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar1, R.string.navigation_drawer_open, R.string.navigation_drawer_close);//burger button
