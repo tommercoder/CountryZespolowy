@@ -28,7 +28,7 @@ import java.util.List;
 
 public class VerkhovnaRadaElection extends AppCompatActivity {
 
-    ImageView backBtn;
+
     RecyclerView recyclerView;
     myadapterVer adapter;
     String city, email, passport, password, phone;
@@ -43,7 +43,7 @@ public class VerkhovnaRadaElection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_city_elections);
+        setContentView(R.layout.activity_verkhovna_rada_election);
         // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
 
         recyclerView = (RecyclerView) findViewById(R.id.recview);
@@ -79,14 +79,8 @@ public class VerkhovnaRadaElection extends AppCompatActivity {
 
 
 
-        backBtn = findViewById(R.id.back_btn_pressed);
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                VerkhovnaRadaElection.super.onBackPressed();
-            }
-        });
+
     }
 
 

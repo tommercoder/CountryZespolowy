@@ -134,11 +134,11 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/expandableLayout"
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="100dp"
             android:background="@drawable/info_shape"
             android:padding="10dp"
-
+            android:layout_marginLeft="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/aboutText"
             app:layout_constraintTop_toBottomOf="@+id/aboutText">
 
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="About"
+                android:text="about:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 tools:ignore="MissingConstraints" />

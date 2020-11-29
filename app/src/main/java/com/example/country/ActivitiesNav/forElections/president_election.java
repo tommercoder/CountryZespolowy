@@ -28,7 +28,7 @@ import java.util.List;
 
 public class president_election extends AppCompatActivity {
 
-    ImageView backBtn;
+    //ImageView backBtn;
     RecyclerView recyclerView;
     myadapterPresident adapter;
     String city, email, passport, password, phone;
@@ -43,7 +43,7 @@ public class president_election extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_city_elections);
+        setContentView(R.layout.activity_president_election);
         // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
 
         recyclerView = (RecyclerView) findViewById(R.id.recview);
@@ -53,8 +53,6 @@ public class president_election extends AppCompatActivity {
         db = FirebaseDatabase.getInstance();
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         reff_city = FirebaseDatabase.getInstance().getReference("Users");
-        final DatabaseReference user_ref = FirebaseDatabase.getInstance().getReference("Users");//.child(user.getUid()).child("passport");
-        final DatabaseReference gov_city_ref = FirebaseDatabase.getInstance().getReference("GovermentUsersDB");
 
         //if user exist
         if (user != null) {
@@ -68,52 +66,7 @@ public class president_election extends AppCompatActivity {
             adapter.startListening();//start listening from firebase
             //wchodzimy do current user
 
-            /*user_ref.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
-                @Override
-                public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    String passport = snapshot.child("passport").getValue().toString();///passport of current user
-                    city = snapshot.child("city").getValue().toString();///city of current user
-                    gov_city_ref.child(passport).addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                            if(city.equals(snapshot.child("city").getValue().toString())) {//check if city of user equals to city in gov data base
-
-                                city_name.setText(city);//set city to EditText
-
-
-
-                                FirebaseRecyclerOptions<model> options =
-                                        new FirebaseRecyclerOptions.Builder<model>()
-                                                .setQuery(FirebaseDatabase.getInstance().getReference().child("MayorCandidates").child(city), model.class)
-                                                .build();//options for recycle view with reference to candidates
-
-                                adapter = new myadapterMayor(options);//setting adapter which sets all data to fields like image etc
-                                recyclerView.setAdapter(adapter);//adding adapter to recycle view
-                                adapter.startListening();//start listening from firebase
-
-                            }
-                            else
-                            {
-                                Toast.makeText(president_election.this,"Your city is'nt like in your passport\ntry go to support",Toast.LENGTH_LONG).show();
-                            }
-                        }
-
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError error) {
-
-                        }
-                    });
-                }
-
-
-                @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-                }
-
-
-            });*/
         }
         else
         {
@@ -124,14 +77,7 @@ public class president_election extends AppCompatActivity {
 
 
 
-        backBtn = findViewById(R.id.back_btn_pressed);
-
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                president_election.super.onBackPressed();
-            }
-        });
+        
     }
 
 

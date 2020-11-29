@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-
+        android:padding="10dp"
         android:orientation="vertical">
         <TextView
             android:id="@+id/CityWinnerSign"
@@ -24,14 +24,14 @@
             android:text="City winner"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:visibility="gone"
+
             />
         <RelativeLayout
             android:background="@drawable/background_border"
             android:layout_width="match_parent"
             android:layout_height="190dp"
             android:id="@+id/relativeCand"
-            android:visibility="gone"
+
             >
 
 
@@ -107,7 +107,7 @@
 
 
         <Button
-            android:visibility="gone"
+
             android:layout_width="match_parent"
             android:layout_margin="10dp"
             android:layout_height="40dp"
@@ -117,7 +117,7 @@
             />
 
         <TextView
-            android:visibility="gone"
+
             android:id="@+id/mayorWinnerSign"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -127,7 +127,7 @@
             android:paddingTop="20dp"
             />
         <RelativeLayout
-            android:visibility="gone"
+
             android:background="@drawable/background_border"
             android:layout_width="match_parent"
             android:layout_height="190dp"
@@ -221,7 +221,7 @@
 
 
         <Button
-            android:visibility="gone"
+
             android:layout_width="match_parent"
             android:id="@+id/MayorAllvotes"
             android:layout_margin="10dp"
@@ -230,7 +230,7 @@
             android:background="@drawable/heades_gradient"
             />
         <TextView
-            android:visibility="gone"
+
             android:id="@+id/presidentWinnerSign"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -240,7 +240,7 @@
             android:paddingTop="20dp"
             />
         <RelativeLayout
-            android:visibility="gone"
+
             android:background="@drawable/background_border"
             android:layout_width="match_parent"
             android:layout_height="190dp"
@@ -334,7 +334,6 @@
 
 
         <Button
-            android:visibility="gone"
             android:layout_width="match_parent"
             android:id="@+id/PresidentAllvotes"
             android:layout_margin="10dp"
@@ -343,7 +342,6 @@
             android:background="@drawable/heades_gradient"
             />
         <TextView
-            android:visibility="gone"
             android:id="@+id/partytWinnerSign"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -353,7 +351,6 @@
             android:paddingTop="20dp"
             />
         <RelativeLayout
-            android:visibility="gone"
             android:background="@drawable/background_border"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -394,7 +391,6 @@
 
         </RelativeLayout>
         <Button
-            android:visibility="gone"
             android:layout_width="match_parent"
             android:id="@+id/PartyAllvotes"
             android:layout_margin="10dp"
