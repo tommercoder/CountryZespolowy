@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "D:\\CountryZespolowy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Serhii Tomashevskyi\\.gradle\\caches\\transforms-2\\files-2.1\\5a0a5d253b938e8a0386b39b912ab5cf\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
-=======
-            "outputFile": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
-            "map": [
-                {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-v17/values-v17.xml",
->>>>>>> origin/max_edit
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

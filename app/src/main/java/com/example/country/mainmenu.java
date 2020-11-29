@@ -1,6 +1,7 @@
 package com.example.country;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -36,11 +37,13 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.nav_view);
         toolbar1 = findViewById(R.id.toolbar);
+        toolbar1.setTitleTextColor(Color.WHITE);
         ////
         setSupportActionBar(toolbar1);
         ////
         navigationView.bringToFront();//setting drawer to fron of screen
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar1, R.string.navigation_drawer_open, R.string.navigation_drawer_close);//burger button
+
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();//turning burger button off after drawer was opened
 

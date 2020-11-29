@@ -2,6 +2,7 @@ package com.example.country;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -30,15 +31,12 @@ public class phone extends AppCompatActivity {
         setContentView(R.layout.activity_phone);
 
         Button btn_phone = findViewById(R.id.phone_now);
-        back_btn = findViewById(R.id.back_btn);
 
-        back_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                phone.super.onBackPressed();
-                //startActivity(new Intent(election_act.this,mainmenu.class));
-            }
-        });
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         btn_phone.setOnClickListener(new View.OnClickListener() {
             @Override

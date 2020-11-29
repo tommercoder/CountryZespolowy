@@ -1441,8 +1441,6 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backToLogin
-id back_btn
-id back_btn_pressed
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1452,11 +1450,7 @@ id bottom
 id bounce
 id btnLogin
 id btnRegister
-<<<<<<< HEAD
-id button
 id buttonNo
-=======
->>>>>>> origin/max_edit
 id buttonPanel
 id buttonYes
 id calligraphy_tag_id
@@ -1605,11 +1599,7 @@ id nav_controller_view_tag
 id nav_view
 id navigation_header_container
 id never
-<<<<<<< HEAD
-=======
 id new_password
-id noScroll
->>>>>>> origin/max_edit
 id none
 id normal
 id notification_background
@@ -1832,12 +1822,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-<<<<<<< HEAD
-layout activity_city_elections
-=======
 layout action_bar
+layout activity_city_elections
 layout activity_edit_profile_act
->>>>>>> origin/max_edit
 layout activity_election_act
 layout activity_email
 layout activity_main
@@ -1846,12 +1833,9 @@ layout activity_phone
 layout activity_president_election
 layout activity_profile_act
 layout activity_register_window
-<<<<<<< HEAD
 layout activity_results
-layout activity_verkhovna_rada_election
-=======
 layout activity_update_pass_profile
->>>>>>> origin/max_edit
+layout activity_verkhovna_rada_election
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

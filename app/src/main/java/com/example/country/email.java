@@ -2,6 +2,7 @@ package com.example.country;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
@@ -23,14 +24,12 @@ public class email extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_email);
         Button btn_email = findViewById(R.id.email_now);
-        ImageView back_btn = findViewById(R.id.back_btn);
 
-        back_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                email.super.onBackPressed();
-            }
-        });
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         btn_email.setOnClickListener(new View.OnClickListener() {
             @Override

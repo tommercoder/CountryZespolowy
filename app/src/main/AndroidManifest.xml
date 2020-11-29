@@ -11,28 +11,32 @@
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
 
-    -<application android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_round" android:allowBackup="true">
+    <application android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_round" android:allowBackup="true">
 
     <activity android:name=".ActivitiesNav.update_pass_profile" android:theme="@style/AppTheme.PopMe"> </activity>
 
     <activity android:name=".ActivitiesNav.edit_profile_act" android:parentActivityName=".ActivitiesNav.profile_act"/>
 
-    <activity android:name=".email"/>
+    <activity android:name=".email" android:parentActivityName=".mainmenu"/>
 
-    <activity android:name=".phone"/>
+    <activity android:name=".phone" android:parentActivityName=".mainmenu"/>
 
     <activity android:name=".register_window"/>
-    <activity android:name=".ActivitiesNav.forElections.VerkhovnaRadaElection"/>
-    <activity android:name=".ActivitiesNav.results"/>
+    <activity android:name=".ActivitiesNav.forElections.VerkhovnaRadaElection" android:parentActivityName=".ActivitiesNav.election_act"/>
+    <activity android:name=".ActivitiesNav.results" android:parentActivityName=".mainmenu"/>
+    <activity android:name=".ActivitiesNav.forElections.president_election" android:parentActivityName=".ActivitiesNav.election_act"/>
+    <activity android:name=".ActivitiesNav.forElections.city_elections" android:parentActivityName=".ActivitiesNav.election_act"/>
+    <activity android:name=".ActivitiesNav.forElections.mayor_elections" android:parentActivityName=".ActivitiesNav.election_act"/>
+
     <activity android:name=".ActivitiesNav.profile_act" android:parentActivityName=".mainmenu"/>
 
-    <activity android:name=".ActivitiesNav.election_act"/>
+    <activity android:name=".ActivitiesNav.election_act" android:parentActivityName=".mainmenu"/>
 
 
-    -<activity android:name=".mainmenu">
+    <activity android:name=".mainmenu">
 
 
-    -<intent-filter>
+    <intent-filter>
 
     <action android:name="android.intent.action.DEFAULT"/>
 
@@ -41,10 +45,10 @@
 </activity>
 
 
-    -<activity android:name=".MainActivity">
+    <activity android:name=".MainActivity">
 
 
-    -<intent-filter>
+    <intent-filter>
 
     <action android:name="android.intent.action.MAIN"/>
 

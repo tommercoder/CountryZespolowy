@@ -3,6 +3,7 @@ package com.example.country.ActivitiesNav;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -45,7 +46,10 @@ public class results extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
-
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Date date = new Date();///check date in another way because user can change date
         LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         final int year = localDate.getYear();

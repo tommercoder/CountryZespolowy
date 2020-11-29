@@ -6,15 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/action_bar"
+        tools:layout_editor_absoluteY="27dp">
 
+    </include>
     <RelativeLayout
         android:id="@+id/relativeLayout2"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
 
-        android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/action_bar">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recview"

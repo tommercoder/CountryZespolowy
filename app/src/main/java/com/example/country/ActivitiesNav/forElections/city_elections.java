@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -44,11 +45,15 @@ public class city_elections extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city_elections);
-       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
+        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         recyclerView = (RecyclerView) findViewById(R.id.recview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // To display the Recycler view linearly
-        click_cand = (RelativeLayout)findViewById(R.id.relativeCand);
+        click_cand = (RelativeLayout) findViewById(R.id.relativeCand);
         city_name = (TextView) findViewById(R.id.city_name_id);
         db = FirebaseDatabase.getInstance();
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -61,43 +66,40 @@ public class city_elections extends AppCompatActivity {
 
             //wchodzimy do current user
 
-                  user_ref.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
-                      @Override
-                      public void onDataChange(@NonNull DataSnapshot snapshot) {
-                          String passport = snapshot.child("passport").getValue().toString();///passport of current user
-                          city = snapshot.child("city").getValue().toString();///city of current user
-                          gov_city_ref.child(passport).addListenerForSingleValueEvent(new ValueEventListener() {
-                              @Override
-                              public void onDataChange(@NonNull DataSnapshot snapshot) {
+            user_ref.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    String passport = snapshot.child("passport").getValue().toString();///passport of current user
+                    city = snapshot.child("city").getValue().toString();///city of current user
+                    gov_city_ref.child(passport).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                                  if(city.equals(snapshot.child("city").getValue().toString())) {//check if city of user equals to city in gov data base
+                            if (city.equals(snapshot.child("city").getValue().toString())) {//check if city of user equals to city in gov data base
 
-                                      city_name.setText(city);//set city to EditText
+                                city_name.setText(city);//set city to EditText
 
 
+                                FirebaseRecyclerOptions<model> options =
+                                        new FirebaseRecyclerOptions.Builder<model>()
+                                                .setQuery(FirebaseDatabase.getInstance().getReference().child("CityCandidates").child(city), model.class)
+                                                .build();//options for recycle view with reference to candidates
 
-                                      FirebaseRecyclerOptions<model> options =
-                                              new FirebaseRecyclerOptions.Builder<model>()
-                                                      .setQuery(FirebaseDatabase.getInstance().getReference().child("CityCandidates").child(city), model.class)
-                                                      .build();//options for recycle view with reference to candidates
+                                adapter = new myadapter(options);//setting adapter which sets all data to fields like image etc
+                                recyclerView.setAdapter(adapter);//adding adapter to recycle view
+                                adapter.startListening();//start listening from firebase
 
-                                      adapter = new myadapter(options);//setting adapter which sets all data to fields like image etc
-                                      recyclerView.setAdapter(adapter);//adding adapter to recycle view
-                                      adapter.startListening();//start listening from firebase
+                            } else {
+                                Toast.makeText(city_elections.this, "Your city is'nt like in your passport\ntry go to support", Toast.LENGTH_LONG).show();
+                            }
+                        }
 
-                                  }
-                                  else
-                                  {
-                                      Toast.makeText(city_elections.this,"Your city is'nt like in your passport\ntry go to support",Toast.LENGTH_LONG).show();
-                                  }
-                              }
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
 
-                              @Override
-                              public void onCancelled(@NonNull DatabaseError error) {
-
-                              }
-                          });
-                      }
+                        }
+                    });
+                }
 
 
                 @Override
@@ -107,24 +109,12 @@ public class city_elections extends AppCompatActivity {
 
 
             });
-        }
-        else
-         {
-            Toast.makeText(this,"User is not logged in",Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "User is not logged in", Toast.LENGTH_LONG).show();
             adapter.stopListening();
         }
 
 
-
-
-        backBtn = findViewById(R.id.back_btn_pressed);
-
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                city_elections.super.onBackPressed();
-            }
-        });
     }
 
 

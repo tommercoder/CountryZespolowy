@@ -5,36 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/action_bar"
+        tools:layout_editor_absoluteY="27dp">
 
+    </include>
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginStart="9dp"
         android:layout_marginEnd="9dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/action_bar"
         android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-
-            >
-
-            <ImageView
-                android:id="@+id/back_btn_pressed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-
-                android:padding="19dp"
-                android:src="@drawable/back_icon" />
-
-
-        </RelativeLayout>
 
 
         <TextView

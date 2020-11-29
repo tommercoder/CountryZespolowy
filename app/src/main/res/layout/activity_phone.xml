@@ -5,37 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".phone">
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/action_bar"
+        tools:layout_editor_absoluteY="27dp">
 
-    <ImageView
-        android:id="@+id/back_btn"
-        android:layout_width="wrap_content"
+    </include>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        app:layout_constraintTop_toBottomOf="@id/action_bar"
+        tools:context=".phone">
 
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/bgb"
+            android:padding="8dp"
+            android:text="Feedback"
+            android:textAllCaps="true"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
 
-        android:padding="10dp"
-        android:src="@drawable/back_icon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-3dp" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/bgb"
-        android:padding="8dp"
-        android:text="Feedback"
-        android:textAllCaps="true"
-        android:textSize="36sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back_btn"
-        tools:ignore="MissingConstraints" />
-
-    <RelativeLayout
+        <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="175dp"
         android:layout_marginStart="16dp"
@@ -102,4 +99,5 @@
 
     </RelativeLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -28,7 +29,7 @@ import java.util.List;
 
 public class mayor_elections extends AppCompatActivity {
 
-    ImageView backBtn;
+
     RecyclerView recyclerView;
     myadapterMayor adapter;
     String city, email, passport, password, phone;
@@ -45,7 +46,10 @@ public class mayor_elections extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city_elections);
         // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
-
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         recyclerView = (RecyclerView) findViewById(R.id.recview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // To display the Recycler view linearly
         click_cand = (RelativeLayout)findViewById(R.id.relativeCand);
@@ -117,14 +121,7 @@ public class mayor_elections extends AppCompatActivity {
 
 
 
-        backBtn = findViewById(R.id.back_btn_pressed);
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mayor_elections.super.onBackPressed();
-            }
-        });
     }
 
 

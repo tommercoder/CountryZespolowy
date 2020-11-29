@@ -40,15 +40,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-<<<<<<< HEAD
-=======
+
             <include
                 android:id="@+id/toolbar"
                 layout="@layout/action_bar">
 
             </include>
         
->>>>>>> origin/max_edit
+
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -58,16 +57,5 @@
         </RelativeLayout>
 
     </LinearLayout>
-        
 
-
-
-
-
-
-
-
-
-        
-       
 </androidx.drawerlayout.widget.DrawerLayout>

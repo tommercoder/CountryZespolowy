@@ -60,7 +60,7 @@ public class update_pass_profile extends Activity {
 
         users.child(user.getUid()).addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
+            public void onDataChange(@NonNull final DataSnapshot snapshot) {
 
                 confirmButton.setOnClickListener(new View.OnClickListener() {
                     @Override

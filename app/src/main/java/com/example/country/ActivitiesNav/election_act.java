@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.country.ActivitiesNav.forElections.VerkhovnaRadaElection;
 import com.example.country.ActivitiesNav.forElections.city_elections;
@@ -54,16 +55,13 @@ public class election_act extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_election_act);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        back_btn = findViewById(R.id.back_btn_pressed);
 
-        back_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                election_act.super.onBackPressed();
-                //startActivity(new Intent(election_act.this,mainmenu.class));
-            }
-        });
+
         city_election_btn = findViewById(R.id.city_election_id);
         mayor_election_btn = findViewById(R.id.mayor_election_id);
         president_election_btn = findViewById(R.id.president_election_id);
