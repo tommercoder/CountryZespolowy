@@ -1,41 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.country">
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <manifest package="com.example.country" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_round"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ActivitiesNav.forElections.VerkhovnaRadaElection"></activity>
-        <activity android:name=".ActivitiesNav.results" />
-        <activity android:name=".email" />
-        <activity android:name=".phone" />
-        <activity android:name=".register_window" />
-        <activity android:name=".ActivitiesNav.profile_act" />
-        <activity android:name=".ActivitiesNav.election_act" />
-        <activity android:name=".ActivitiesNav.forElections.city_elections" />
-        <activity android:name=".ActivitiesNav.forElections.mayor_elections" />
-        <activity android:name=".ActivitiesNav.forElections.president_election" />
-        <activity android:name=".mainmenu">
-            <intent-filter>
-                <action android:name="android.intent.action.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
+    -<application android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_round" android:allowBackup="true">
+
+    <activity android:name=".ActivitiesNav.update_pass_profile" android:theme="@style/AppTheme.PopMe"> </activity>
+
+    <activity android:name=".ActivitiesNav.edit_profile_act" android:parentActivityName=".ActivitiesNav.profile_act"/>
+
+    <activity android:name=".email"/>
+
+    <activity android:name=".phone"/>
+
+    <activity android:name=".register_window"/>
+    <activity android:name=".ActivitiesNav.forElections.VerkhovnaRadaElection"/>
+    <activity android:name=".ActivitiesNav.results"/>
+    <activity android:name=".ActivitiesNav.profile_act" android:parentActivityName=".mainmenu"/>
+
+    <activity android:name=".ActivitiesNav.election_act"/>
+
+
+    -<activity android:name=".mainmenu">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.DEFAULT"/>
+
+</intent-filter>
+
+</activity>
+
+
+    -<activity android:name=".MainActivity">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+</application>
 
 </manifest>

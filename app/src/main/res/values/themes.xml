@@ -10,6 +10,11 @@
 
 
     </style>
+    
+    <style name="AppTheme.PopMe">
+         <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

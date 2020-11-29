@@ -1312,7 +1312,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_profile_city
+drawable ic_profile_email
+drawable ic_profile_icon
 drawable ic_profile_passport
+drawable ic_profile_password
 drawable ic_profile_phone
 drawable info_shape
 drawable logout_icon
@@ -1332,6 +1335,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pop_bg
 drawable profile_icon
 drawable referendum_icon
 drawable selector_expand
@@ -1399,6 +1403,7 @@ id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
 id action_bar
+id action_bar_2
 id action_bar_activity_content
 id action_bar_container
 id action_bar_root
@@ -1447,8 +1452,11 @@ id bottom
 id bounce
 id btnLogin
 id btnRegister
+<<<<<<< HEAD
 id button
 id buttonNo
+=======
+>>>>>>> origin/max_edit
 id buttonPanel
 id buttonYes
 id calligraphy_tag_id
@@ -1538,6 +1546,10 @@ id honorRequest
 id icon
 id icon_group
 id icon_only
+id id_confirm_button
+id id_editButton
+id id_edit_mail
+id id_edit_phone
 id id_user_city
 id id_user_email
 id id_user_name
@@ -1593,12 +1605,18 @@ id nav_controller_view_tag
 id nav_view
 id navigation_header_container
 id never
+<<<<<<< HEAD
+=======
+id new_password
+id noScroll
+>>>>>>> origin/max_edit
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id old_password
 id on
 id outline
 id packed
@@ -1748,6 +1766,9 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update_mail_button
+id update_password_button
+id update_phone_button
 id useLogo
 id view_offset_helper
 id visible
@@ -1811,7 +1832,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+<<<<<<< HEAD
 layout activity_city_elections
+=======
+layout action_bar
+layout activity_edit_profile_act
+>>>>>>> origin/max_edit
 layout activity_election_act
 layout activity_email
 layout activity_main
@@ -1820,8 +1846,12 @@ layout activity_phone
 layout activity_president_election
 layout activity_profile_act
 layout activity_register_window
+<<<<<<< HEAD
 layout activity_results
 layout activity_verkhovna_rada_election
+=======
+layout activity_update_pass_profile
+>>>>>>> origin/max_edit
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1953,6 +1983,7 @@ style Animation_Design_BottomSheetDialog
 style AppTheme
 style AppTheme_AppBarOverlay
 style AppTheme_NoActionBar
+style AppTheme_PopMe
 style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light

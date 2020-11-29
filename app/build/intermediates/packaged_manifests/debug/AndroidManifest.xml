@@ -24,13 +24,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.country.ActivitiesNav.forElections.VerkhovnaRadaElection" />
         <activity android:name="com.example.country.ActivitiesNav.results" />
+=======
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.country.ActivitiesNav.update_pass_profile"
+            android:theme="@style/AppTheme.PopMe" >
+        </activity>
+        <activity
+            android:name="com.example.country.ActivitiesNav.edit_profile_act"
+            android:parentActivityName="com.example.country.ActivitiesNav.profile_act" />
+>>>>>>> origin/max_edit
         <activity android:name="com.example.country.email" />
         <activity android:name="com.example.country.phone" />
         <activity android:name="com.example.country.register_window" />
-        <activity android:name="com.example.country.ActivitiesNav.profile_act" />
+        <activity
+            android:name="com.example.country.ActivitiesNav.profile_act"
+            android:parentActivityName="com.example.country.mainmenu" />
         <activity android:name="com.example.country.ActivitiesNav.election_act" />
         <activity android:name="com.example.country.ActivitiesNav.forElections.city_elections" />
         <activity android:name="com.example.country.ActivitiesNav.forElections.mayor_elections" />

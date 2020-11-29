@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitiesNav.edit_profile_act">
+
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/action_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="27dp">
+
+    </include>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/id_edit_mail"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_profile_email"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/bgb"
+        android:hint="Enter new Mail"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_bar" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/id_edit_phone"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_profile_phone"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/bgb"
+        android:hint="Enter new Phone"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_edit_mail" />
+
+    <Button
+        android:id="@+id/update_mail_button"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0048C5FB"
+        android:fontFamily="@font/bgb"
+        android:text="UPDATE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/id_edit_mail"
+        app:layout_constraintTop_toBottomOf="@+id/action_bar" />
+
+    <Button
+        android:id="@+id/update_phone_button"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0048C5FB"
+        android:fontFamily="@font/bgb"
+        android:text="UPDATE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/id_edit_mail"
+        app:layout_constraintTop_toBottomOf="@+id/update_mail_button" />
+
+    <Button
+        android:id="@+id/update_password_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/bgb"
+        android:text="UPDATE PASSWORD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

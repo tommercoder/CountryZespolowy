@@ -1,11 +1,16 @@
 package com.example.country.ActivitiesNav;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import com.example.country.MainActivity;
 import com.example.country.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -22,12 +27,22 @@ public class profile_act extends AppCompatActivity {
     FirebaseDatabase db;
     DatabaseReference users, government;
     FirebaseAuth.AuthStateListener listener;
+
     TextView userName,userEmail,userCity,userPassport,userPhone;
+    Button editButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_act);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar_2);
+        toolbar.setTitle(" ");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+        editButton = findViewById(R.id.id_editButton);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
@@ -41,6 +56,13 @@ public class profile_act extends AppCompatActivity {
         userCity = (TextView)findViewById(R.id.id_user_city);
         userPassport = (TextView)findViewById(R.id.id_user_passport);
         userPhone = (TextView)findViewById(R.id.id_user_phone);
+
+        editButton.setOnClickListener(new android.view.View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), edit_profile_act.class));
+            }
+        });
 
         if(user != null) {
             users.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -79,7 +101,6 @@ public class profile_act extends AppCompatActivity {
             });
 
         }
-
 
 
     }

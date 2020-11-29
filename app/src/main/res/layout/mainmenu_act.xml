@@ -8,9 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".mainmenu"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
+
+
 
     tools:ignore="MissingClass">
+
+
 //navigation bar design
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
@@ -22,21 +25,7 @@
         app:itemIconTint="@color/blue"/> <!--icon colors changed-->
 
 
-    <androidx.appcompat.widget.Toolbar
 
-        android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:background="#FDFDF6"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-         />
 //main menu design
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,6 +40,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+<<<<<<< HEAD
+=======
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/action_bar">
+
+            </include>
+        
+>>>>>>> origin/max_edit
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
