@@ -2,6 +2,7 @@ package com.example.country.ActivitiesNav.forElections.ResultActivities;
 //<a href='https://www.freepik.com/vectors/fashion'>Fashion vector created by studiogstock - www.freepik.com</a>
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -28,6 +30,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.collection.LLRBNode;
 
 import org.w3c.dom.Text;
 
@@ -51,6 +54,7 @@ public class city_votes extends AppCompatActivity {
     public String city_for_ad;
     String user_id;
     RelativeLayout click_cand;
+    ConstraintLayout color;
     public String encodeDiscussionId(int Id) {
 
         String tempEn = Id + "";
@@ -82,6 +86,9 @@ public class city_votes extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
         toolbar.setTitle(" ");
         setSupportActionBar(toolbar);
+
+        color = findViewById(R.id.CityWinnerConstraint);
+        //color.setBackgroundColor(Color.GRAY);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         recyclerView = (RecyclerView) findViewById(R.id.recview);

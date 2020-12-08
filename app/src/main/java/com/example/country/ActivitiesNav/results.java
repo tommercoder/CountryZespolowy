@@ -182,7 +182,7 @@ public class results extends AppCompatActivity {
     public boolean hasDuplicate(List<Integer> items) {
         Set<Integer> appeared = new HashSet<>();
         for (int item : items) {
-            if (!appeared.add(item)) {
+            if (!appeared.add(item) && item!=0) {
                 return true;
             }
         }
@@ -258,7 +258,7 @@ public class results extends AppCompatActivity {
                                     name.setText(nameDB);
                                     age.setText(ageDB);
                                     party.setText(partyDB);
-
+                                    Glide.with(image).load(imgDB).into(image);
                                     DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
                                     res.child("CityResult").child("name").setValue(nameDB);
                                     res.child("CityResult").child("age").setValue(ageDB);
@@ -321,47 +321,81 @@ public class results extends AppCompatActivity {
                                 int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
-                            /*if(hasDuplicate(votesList))
-                            {
+                            int maxVote = Collections.max(votesList);
+                            //if there is no the guy thow reach 50% + 1 vote then there will be second tour;
+                            int sum = 0;
+                            for (int i = 0; i < votesList.size(); i++) {
+                                sum += votesList.get(i);
+                            }
+                            double result = (maxVote + 1) / (double) sum;
+                            int percentage = (int) (result * 100.0f);//51 set
+
+                            Log.d("all votes", "=" + sum);
+                            Log.d("max vote", "=" + maxVote);
+                            Log.d("the percentage", "=" + percentage);
+                            List<Integer> copyList = new ArrayList<>();
+                            copyList = votesList;
+                            copyList.remove(votesList.indexOf(maxVote));
+                            Boolean sameMax = false;
+                            for (int i = 0; i < copyList.size(); i++) {
+                                if (copyList.get(i).equals(maxVote)) {
+                                    sameMax = true;
+                                }
+                            }
+                            if (percentage < 50) {
                                 ifSecondRound = true;
-                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
-                                second.setVisibility(View.VISIBLE);
-                                TextView secondTest = findViewById(R.id.SecondRoundTextView);
-                                secondTest.setVisibility(View.VISIBLE);
-                                secondTest.setText("there will be second round of mayor choosing");
-                                return;
-                            }*/
-                            counter = 0;
-                            int max = Collections.max(votesList);
-                            Log.d(String.valueOf(max),"LOG KIWAWAA");
-                            for(DataSnapshot dt : snapshot.getChildren())
-                            {
-                                counter++;
+                            }
+                       
+                            if (ifSecondRound || sameMax) {
 
-                                String votes = dt.child("votes").getValue().toString();
 
-                                int intVotes = decodeDiscussionId(votes);
-                                if(intVotes==max)
-                                {
-                                    TextView name = (TextView)findViewById(R.id.nametext2);
-                                    TextView age = (TextView)findViewById(R.id.age_id_mayor);
-                                    TextView party = (TextView)findViewById(R.id.party_id_mayor);
-                                    CircleImageView image = (CircleImageView)findViewById(R.id.img2);
+                                TextView mayorText = findViewById(R.id.mayorWinnerSign);
+                                RelativeLayout mayorRelative = findViewById(R.id.mayorWinner);
+                                Button mayorButton = findViewById(R.id.MayorAllvotes);
+                                mayorText.setVisibility(View.GONE);
 
-                                    String nameDB = dt.child("name").getValue().toString();
-                                    String ageDB = dt.child("age").getValue().toString();
-                                    String partyDB = dt.child("party").getValue().toString();
-                                    String imgDB = dt.child("purl").getValue().toString();
+                                mayorButton.setVisibility(View.GONE);
+                                TextView name = (TextView) findViewById(R.id.nametext2);
+                                TextView age = (TextView) findViewById(R.id.age_id_mayor);
+                                TextView party = (TextView) findViewById(R.id.party_id_mayor);
+                                CircleImageView image = (CircleImageView) findViewById(R.id.img2);
 
-                                    name.setText(nameDB);
-                                    age.setText(ageDB);
-                                    party.setText(partyDB);
+                                name.setText("Mayor election will have second round");
+                                age.setText(" ");
+                                party.setText(" ");
+                                image.setVisibility(View.GONE);
+                            } else {
 
-                                    DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
-                                    res.child("mayorResult").child("name").setValue(nameDB);
-                                    res.child("mayorResult").child("age").setValue(ageDB);
-                                    res.child("mayorResult").child("party").setValue(partyDB);
-                                    res.child("mayorResult").child("votes").setValue(max);
+                                counter = 0;
+                                int max = Collections.max(votesList);
+                                Log.d(String.valueOf(max), "LOG KIWAWAA");
+                                for (DataSnapshot dt : snapshot.getChildren()) {
+                                    counter++;
+
+                                    String votes = dt.child("votes").getValue().toString();
+
+                                    int intVotes = decodeDiscussionId(votes);
+                                    if (intVotes == max) {
+                                        TextView name = (TextView) findViewById(R.id.nametext2);
+                                        TextView age = (TextView) findViewById(R.id.age_id_mayor);
+                                        TextView party = (TextView) findViewById(R.id.party_id_mayor);
+                                        CircleImageView image = (CircleImageView) findViewById(R.id.img2);
+
+                                        String nameDB = dt.child("name").getValue().toString();
+                                        String ageDB = dt.child("age").getValue().toString();
+                                        String partyDB = dt.child("party").getValue().toString();
+                                        String imgDB = dt.child("purl").getValue().toString();
+                                        Glide.with(image).load(imgDB).into(image);
+                                        name.setText(nameDB);
+                                        age.setText(ageDB);
+                                        party.setText(partyDB);
+
+                                        DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
+                                        res.child("mayorResult").child("name").setValue(nameDB);
+                                        res.child("mayorResult").child("age").setValue(ageDB);
+                                        res.child("mayorResult").child("party").setValue(partyDB);
+                                        res.child("mayorResult").child("votes").setValue(max);
+                                    }
                                 }
                             }
                         }
@@ -419,51 +453,94 @@ public class results extends AppCompatActivity {
                                 int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
-                            /*if(hasDuplicate(votesList))
+                            int maxVote = Collections.max(votesList);
+                            //if there is no the guy thow reach 50% + 1 vote then there will be second tour;
+                            int sum = 0;
+                            for(int i = 0;i < votesList.size();i++)
+                            {
+                               sum += votesList.get(i);
+                            }
+                            double result = (maxVote+1)/(double)sum;
+                            int percentage = (int)(result*100.0f);//51 set
+
+                            Log.d("all votes","=" + sum);
+                            Log.d("max vote","=" + maxVote);
+                            Log.d("the percentage","=" + percentage);
+                            List<Integer> copyList = new ArrayList<>();
+                            copyList = votesList;
+                            copyList.remove(votesList.indexOf(maxVote));
+                            Boolean sameMax = false;
+                            for(int i = 0;i < copyList.size();i++)
+                            {
+                                if(copyList.get(i).equals(maxVote))
+                                {
+                                   sameMax = true;
+                                }
+                            }
+                            if(percentage < 50)
                             {
                                 ifSecondRound = true;
-                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
+                            }
+                            if (ifSecondRound || sameMax) {
+
+
+                                /*RelativeLayout second = findViewById(R.id.relativeSecondTour);
                                 second.setVisibility(View.VISIBLE);
                                 TextView secondTest = findViewById(R.id.SecondRoundTextView);
                                 secondTest.setVisibility(View.VISIBLE);
                                 secondTest.setText("there will be second round of president choosing");
-                                return;
-                            }*/
-                            counter = 0;
-                            int max = Collections.max(votesList);
-                            Log.d(String.valueOf(max),"LOG KIWAWAA");
-                            for(DataSnapshot dt : snapshot.getChildren())
-                            {
-                                counter++;
+                                return;*/
+                                TextView Presidenttext = findViewById(R.id.presidentWinnerSign);
+                                RelativeLayout presidentRelative = findViewById(R.id.PresidentWinner);
+                                Button presidentButt = findViewById(R.id.PresidentAllvotes);
+                                Presidenttext.setVisibility(View.GONE);
 
-                                String votes = dt.child("votes").getValue().toString();
+                                presidentButt.setVisibility(View.GONE);
+                                TextView name = (TextView) findViewById(R.id.nametext3);
+                                TextView age = (TextView) findViewById(R.id.age_id_president);
+                                TextView party = (TextView) findViewById(R.id.party_id_president);
+                                CircleImageView image = (CircleImageView) findViewById(R.id.img3);
 
-                                int intVotes = decodeDiscussionId(votes);
-                                if(intVotes==max)
+                                name.setText("President election will have second round");
+                                age.setText(" ");
+                                party.setText(" ");
+                                image.setVisibility(View.GONE);
+                            }
+                            else
                                 {
-                                    TextView name = (TextView)findViewById(R.id.nametext3);
-                                    TextView age = (TextView)findViewById(R.id.age_id_president);
-                                    TextView party = (TextView)findViewById(R.id.party_id_president);
-                                    CircleImageView image = (CircleImageView)findViewById(R.id.img3);
+                                counter = 0;
+                                int max = Collections.max(votesList);
+                                Log.d(String.valueOf(max), "LOG KIWAWAA");
+                                for (DataSnapshot dt : snapshot.getChildren()) {
+                                    counter++;
 
-                                    String nameDB = dt.child("name").getValue().toString();
-                                    String ageDB = dt.child("age").getValue().toString();
-                                    String partyDB = dt.child("party").getValue().toString();
-                                    String imgDB = dt.child("purl").getValue().toString();
+                                    String votes = dt.child("votes").getValue().toString();
 
-                                    name.setText(nameDB);
-                                    age.setText(ageDB);
-                                    party.setText(partyDB);
+                                    int intVotes = decodeDiscussionId(votes);
+                                    if (intVotes == max) {
+                                        TextView name = (TextView) findViewById(R.id.nametext3);
+                                        TextView age = (TextView) findViewById(R.id.age_id_president);
+                                        TextView party = (TextView) findViewById(R.id.party_id_president);
+                                        CircleImageView image = (CircleImageView) findViewById(R.id.img3);
 
-                                    DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
-                                    res.child("PresidentResult").child("name").setValue(nameDB);
-                                    res.child("PresidentResult").child("age").setValue(ageDB);
-                                    res.child("PresidentResult").child("party").setValue(partyDB);
-                                    res.child("PresidentResult").child("votes").setValue(max);
+                                        String nameDB = dt.child("name").getValue().toString();
+                                        String ageDB = dt.child("age").getValue().toString();
+                                        String partyDB = dt.child("party").getValue().toString();
+                                        String imgDB = dt.child("purl").getValue().toString();
+                                        Glide.with(image).load(imgDB).into(image);
+                                        name.setText(nameDB);
+                                        age.setText(ageDB);
+                                        party.setText(partyDB);
+
+                                        DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
+                                        res.child("PresidentResult").child("name").setValue(nameDB);
+                                        res.child("PresidentResult").child("age").setValue(ageDB);
+                                        res.child("PresidentResult").child("party").setValue(partyDB);
+                                        res.child("PresidentResult").child("votes").setValue(max);
+                                    }
                                 }
                             }
                         }
-
                         @Override
                         public void onCancelled(@NonNull DatabaseError error) {
 

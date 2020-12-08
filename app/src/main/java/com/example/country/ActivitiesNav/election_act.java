@@ -120,6 +120,30 @@ public class election_act extends AppCompatActivity {
             }
         });
 
+        final DatabaseReference reffToUser = FirebaseDatabase.getInstance().getReference("Users");
+        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        reffToUser.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+               if(day > 12)
+                    if(month > 12)
+                        reffToUser.child(user.getUid()).child("votedCity").setValue("no");
+                if(day > 14)
+                    if(month > 12)
+                        reffToUser.child(user.getUid()).child("votedMayor").setValue("no");
+                if(day > 11)
+                    if(month > 12)
+                        reffToUser.child(user.getUid()).child("votedPresident").setValue("no");
+                if(day > 12)
+                    if(month > 12)
+                        reffToUser.child(user.getUid()).child("votedVer").setValue("no");
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
 
     }

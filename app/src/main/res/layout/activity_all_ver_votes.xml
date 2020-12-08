@@ -25,10 +25,12 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:background="@drawable/background_border"
+            android:background="@drawable/results_design"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/relativeCand"
+            android:layout_marginBottom="20dp"
+
             >
             <!--<Button
                 android:id="@+id/vote_btn"
@@ -110,6 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/relativeCand2"
+            android:layout_marginBottom="20dp"
             >
             <!--<Button
                 android:id="@+id/vote_btn"
@@ -130,17 +133,16 @@
 
             <RelativeLayout
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:padding="10dp"
                 android:id="@+id/partyrel2"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:padding="10dp"
 
                 >
 
 
                 <!--android:textColor="#000"-->
-
 
 
                 <TextView
@@ -156,7 +158,6 @@
                     android:textSize="25sp" />
 
 
-
             </RelativeLayout>
 
             <RelativeLayout
@@ -164,7 +165,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/partyrel2"
                 android:layout_marginTop="-5dp"
-                android:padding="10dp">
+                android:padding="10dp"
+
+                >
 
                 <TextView
                     android:id="@+id/votesText2"
@@ -185,10 +188,11 @@
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:background="@drawable/background_border"
+            android:background="@drawable/results_design"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/relativeCand3"
+            android:layout_marginBottom="20dp"
             >
             <!--<Button
                 android:id="@+id/vote_btn"
@@ -266,6 +270,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/relativeCand4"
+            android:layout_marginBottom="20dp"
             >
             <!--<Button
                 android:id="@+id/vote_btn"
@@ -341,7 +346,7 @@
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:background="@drawable/background_border"
+            android:background="@drawable/results_design"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/relativeCand5"

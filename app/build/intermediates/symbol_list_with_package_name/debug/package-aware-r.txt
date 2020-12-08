@@ -864,6 +864,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color lightWhite
@@ -917,6 +918,8 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color resGradStart
+color resGradStop
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1338,6 +1341,7 @@ drawable notify_panel_notification_icon_bg
 drawable pop_bg
 drawable profile_icon
 drawable referendum_icon
+drawable results_design
 drawable selector_expand
 drawable settingsicon
 drawable title_sure_background
@@ -1349,9 +1353,11 @@ font baloo
 font bgb
 font fonts
 font osr
+font rspsans
 id ALT
 id CTRL
 id CityAllvotes
+id CityWinnerConstraint
 id CityWinnerSign
 id FUNCTION
 id META

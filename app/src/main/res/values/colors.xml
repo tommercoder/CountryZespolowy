@@ -7,8 +7,10 @@
     <color name="lightWhite">#D6E6F1</color>
     <color name="maincolor">#28ae90</color>
     <color name="startgrad">#60c4f5</color>
-    <color name="stopgrad">#60c4f5</color>
+    <color name="stopgrad">#6991c7</color>
     <color name="white">#FFFFFF</color>
     <color name="sureColor">#60c4f5</color>
-
+    <color name="resGradStart">#ffc3a0 </color>
+    <color name="resGradStop">#ffafbd</color>
+    <color name="grey">#ababab</color>
 </resources>

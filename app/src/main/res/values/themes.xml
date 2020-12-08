@@ -8,6 +8,7 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="statusBarBackground">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/blue</item>
 
 
     </style>

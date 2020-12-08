@@ -25,11 +25,10 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recview"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="100dp"
 
-
-                    tools:layout_editor_absoluteX="-16dp"
-                    tools:layout_editor_absoluteY="0dp" />
+                   />
 
 
         </RelativeLayout>
