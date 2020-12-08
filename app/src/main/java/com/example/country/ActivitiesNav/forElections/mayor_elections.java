@@ -44,7 +44,7 @@ public class mayor_elections extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_city_elections);
+        setContentView(R.layout.activity_mayor_elections);
         // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
         Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar);
         toolbar.setTitle(" ");

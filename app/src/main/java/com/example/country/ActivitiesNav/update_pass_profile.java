@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.country.R;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -44,7 +45,7 @@ public class update_pass_profile extends Activity {
         int width = dm.widthPixels;
         int height= dm.heightPixels;
 
-        getWindow().setLayout((int)(width*.8),(int)(height*.3));
+        getWindow().setLayout((int)(width*.8),(int)(height*.35));
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity .CENTER;
@@ -71,9 +72,15 @@ public class update_pass_profile extends Activity {
 
                         if (OldPass.equals(OldPassFromDB)) {
                             users.child(user.getUid()).child("password").setValue(NewPass);
-                            Toast.makeText(update_pass_profile.this, "Password has been updated", Toast.LENGTH_LONG).show();
-                        } else {
-                            Toast.makeText(update_pass_profile.this, "Old password is incorrect!", Toast.LENGTH_LONG).show();
+                            //Toast.makeText(update_pass_profile.this, "Password has been updated", Toast.LENGTH_LONG).show();
+                            Snackbar.make(view, "Password has been updated", Snackbar.LENGTH_LONG)
+                                    .show();
+                        }
+                        else
+                        {
+                            //Toast.makeText(update_pass_profile.this, "Old password is incorrect!", Toast.LENGTH_LONG).show();
+                            Snackbar.make(view, "Old password is incorrect!", Snackbar.LENGTH_LONG)
+                                    .show();
                         }
 
 

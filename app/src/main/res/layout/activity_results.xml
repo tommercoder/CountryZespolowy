@@ -239,7 +239,7 @@
             android:id="@+id/MayorAllvotes"
             android:layout_margin="10dp"
             android:layout_height="40dp"
-            android:text="See all candidates for mayor votes"
+            android:text="See every candidate votes"
             android:background="@drawable/heades_gradient"
             />
         <TextView
@@ -351,7 +351,7 @@
             android:id="@+id/PresidentAllvotes"
             android:layout_margin="10dp"
             android:layout_height="40dp"
-            android:text="See all candidates for president votes"
+            android:text="See every candidate votes"
             android:background="@drawable/heades_gradient"
             />
         <TextView
@@ -408,13 +408,27 @@
             android:id="@+id/PartyAllvotes"
             android:layout_margin="10dp"
             android:layout_height="40dp"
-            android:text="See all parties votes"
+            android:text="See all party winners"
             android:background="@drawable/heades_gradient"
             />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="60dp">
 
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/relativeSecondTour"
+            android:visibility="gone"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/SecondRoundTextView"/>
         </RelativeLayout>
     </LinearLayout>
 

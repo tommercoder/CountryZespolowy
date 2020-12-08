@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dffa45e3c096cf56c49a7f84546b6399\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\ad6d79dcf8b43fd16c2f73f8f3bda48a\navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -81,25 +81,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Serhii Tomashevs
 MERGED from [androidx.print:print:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a927cb788b300023746251a8b9416eb7\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\135c53eb9177d687b3ff8277f0900f7f\jetified-android-intent-1.0.3\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\1d79cfc5e88ec5eebe84d6db639c26b6\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
-INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 	package
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:15-44
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:5-63:12
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 		INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:3:45-103
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.firebaseui:firebase-ui-database:6.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\8af10b1eef7b2878e25cde2160ea3971\jetified-firebase-ui-database-6.3.0\AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-database:6.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\8af10b1eef7b2878e25cde2160ea3971\jetified-firebase-ui-database-6.3.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:26:5-67
@@ -117,7 +117,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:
 	android:name
 		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:7:5-78
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cad16d658ddb8c9d27e418ba1c9cf01c\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:23:5-79
@@ -131,17 +131,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a182cb3269335eaf67b5ca0bb1f681ac\jetified-play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a182cb3269335eaf67b5ca0bb1f681ac\jetified-play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:9:5-75
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:7:5-76
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:7:22-73
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:11:5-68
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:8:5-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:11:22-66
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:8:22-66
 application
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:5-61:15
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:10:5-75:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dffa45e3c096cf56c49a7f84546b6399\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dffa45e3c096cf56c49a7f84546b6399\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -203,111 +203,135 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Serhii Tomashevskyi\.g
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\12a6bf48d95b151f5141a87053ee8e99\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:75-101
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:148-180
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:102-147
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:181-221
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:12:9-49
 	android:allowBackup
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:222-248
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:14:18-74
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:16:9-65
+activity#com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:17:9-19:25
+	android:parentActivityName
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:18:13-64
+	android:name
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:17:19-89
+activity#com.example.country.ActivitiesNav.forElections.ResultActivities.all_mayor_votes
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:20:9-22:67
+	android:parentActivityName
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:22:13-64
+	android:name
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:21:13-88
+activity#com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:23:9-25:67
+	android:parentActivityName
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:25:13-64
+	android:name
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:24:13-86
+activity#com.example.country.ActivitiesNav.forElections.ResultActivities.all_president_votes
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:26:9-28:67
+	android:parentActivityName
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:28:13-64
+	android:name
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:27:13-92
 activity#com.example.country.ActivitiesNav.update_pass_profile
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:16:5-115
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:29:9-31:53
 	android:theme
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:16:65-102
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:16:15-64
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:30:13-62
 activity#com.example.country.ActivitiesNav.edit_profile_act
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:18:5-119
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:32:9-34:71
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:18:62-117
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:34:13-68
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:18:15-61
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:33:13-59
 activity#com.example.country.email
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:20:5-77
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:35:9-37:54
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:20:37-75
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:37:13-51
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:20:15-36
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:36:13-34
 activity#com.example.country.phone
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:22:5-77
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:38:9-40:54
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:22:37-75
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:40:13-51
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:22:15-36
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:39:13-34
 activity#com.example.country.register_window
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:24:5-48
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:41:9-53
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:24:15-46
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:41:19-50
 activity#com.example.country.ActivitiesNav.forElections.VerkhovnaRadaElection
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:25:5-138
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:42:9-44:72
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:25:80-136
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:25:15-79
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:43:13-77
 activity#com.example.country.ActivitiesNav.results
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:26:5-93
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:45:9-47:54
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:26:53-91
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:47:13-51
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:26:15-52
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:46:13-50
 activity#com.example.country.ActivitiesNav.forElections.president_election
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:27:5-135
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:48:9-50:72
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:27:77-133
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:50:13-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:27:15-76
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:49:13-74
 activity#com.example.country.ActivitiesNav.forElections.city_elections
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:28:5-131
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:51:9-53:72
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:28:73-129
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:53:13-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:28:15-72
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:52:13-70
 activity#com.example.country.ActivitiesNav.forElections.mayor_elections
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:29:5-132
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:54:9-56:72
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:29:74-130
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:56:13-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:29:15-73
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:55:13-71
 activity#com.example.country.ActivitiesNav.profile_act
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:31:5-97
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:57:9-59:54
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:31:57-95
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:59:13-51
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:31:15-56
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:58:13-54
 activity#com.example.country.ActivitiesNav.election_act
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:33:5-98
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:60:9-62:54
 	android:parentActivityName
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:33:58-96
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:62:13-51
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:33:15-57
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:61:13-55
 activity#com.example.country.mainmenu
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:36:5-45:12
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:63:9-67:20
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:36:15-39
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:63:19-43
 intent-filter#action:name:android.intent.action.DEFAULT
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:39:5-43:17
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:64:13-66:29
 action#android.intent.action.DEFAULT
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:41:5-59
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:65:17-72
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:41:13-57
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:65:25-69
 activity#com.example.country.MainActivity
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:48:5-59:12
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:68:9-74:20
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:48:15-43
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:68:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:51:5-57:17
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.MAIN
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:53:5-56
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:53:13-54
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:55:5-64
+ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:55:15-62
+		ADDED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:72:27-74
 uses-sdk
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml

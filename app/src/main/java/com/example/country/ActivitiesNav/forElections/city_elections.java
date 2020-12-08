@@ -2,6 +2,7 @@ package com.example.country.ActivitiesNav.forElections;
 //<a href='https://www.freepik.com/vectors/fashion'>Fashion vector created by studiogstock - www.freepik.com</a>
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -60,7 +61,7 @@ public class city_elections extends AppCompatActivity {
         reff_city = FirebaseDatabase.getInstance().getReference("Users");
         final DatabaseReference user_ref = FirebaseDatabase.getInstance().getReference("Users");//.child(user.getUid()).child("passport");
         final DatabaseReference gov_city_ref = FirebaseDatabase.getInstance().getReference("GovermentUsersDB");
-
+        Log.d("UIDUIDUDIDIDIDIDIIDIDID" + user.getUid(),"");
         //if user exist
         if (user != null) {
 

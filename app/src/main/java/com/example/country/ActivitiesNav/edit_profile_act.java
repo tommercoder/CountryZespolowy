@@ -36,7 +36,7 @@ public class edit_profile_act extends AppCompatActivity {
 
     private boolean isPhoneChanged(EditText text1,String text2) {
         if(!text1.equals(text2)){
-
+            users.child(user.getUid()).child("phone").setValue(text2);
             return true;
         }
         else return false;

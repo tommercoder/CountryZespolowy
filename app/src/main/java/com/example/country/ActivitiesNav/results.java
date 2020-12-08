@@ -5,6 +5,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
@@ -15,6 +16,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.country.ActivitiesNav.forElections.ResultActivities.all_mayor_votes;
+import com.example.country.ActivitiesNav.forElections.ResultActivities.all_president_votes;
+import com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes;
+import com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes;
 import com.example.country.ActivitiesNav.forElections.myadapter;
 import com.example.country.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -30,7 +35,9 @@ import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -41,6 +48,11 @@ public class results extends AppCompatActivity {
     Boolean resultPresident = false;
     Boolean resultVer = false;
     Boolean alreadeExecuted = false;
+    Boolean ifSecondRound = false;
+    Button seePresidentVotes;
+    Button seeVerVotes;
+    Button seeMayorVotes;
+    Button seeCityVotes;
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,23 +62,53 @@ public class results extends AppCompatActivity {
         toolbar.setTitle(" ");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        seePresidentVotes = (Button)findViewById(R.id.PresidentAllvotes);
+        seeVerVotes = (Button)findViewById(R.id.PartyAllvotes);
+        seeMayorVotes = (Button)findViewById(R.id.MayorAllvotes);
+        seeCityVotes = (Button)findViewById(R.id.CityAllvotes);
+       if(!ifSecondRound) {
+           seePresidentVotes.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   startActivity(new Intent(results.this, all_president_votes.class));
+               }
+           });
+           seeVerVotes.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   startActivity(new Intent(results.this, all_ver_votes.class));
+               }
+           });
+           seeMayorVotes.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   startActivity(new Intent(results.this, all_mayor_votes.class));
+               }
+           });
+           seeCityVotes.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   startActivity(new Intent(results.this, city_votes.class));
+               }
+           });
+       }
         Date date = new Date();///check date in another way because user can change date
         LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         final int year = localDate.getYear();
         final int month = localDate.getMonthValue();
         final int day = localDate.getDayOfMonth();
-        if (day > 10 && month > 10) {
+        //if (day > 10 && month > 10) {
             resultCity = true;
-        }
-        if (day > 10 && month > 10) {
+       // }
+       // if (day > 10 && month > 10) {
             resultMayor = true;
-        }
-        if (day > 10 && month > 10) {
+       // }
+       // if (day > 10 && month > 10) {
             resultPresident = true;
-        }
-        if (day > 10 && month > 10) {
+      //  }
+        //if (day > 10 && month > 10) {
             resultVer = true;
-        }
+        //}
         TextView citytext = findViewById(R.id.CityWinnerSign);
         RelativeLayout cityRelative = findViewById(R.id.relativeCand);
         Button cityButt = findViewById(R.id.CityAllvotes);
@@ -115,11 +157,44 @@ public class results extends AppCompatActivity {
         }
 
     }
+    public String encodeDiscussionId(int Id) {
+
+        String tempEn = Id + "";
+        String encryptNum ="";
+        for(int i=0;i<tempEn.length();i++) {
+            int a = (int)tempEn.charAt(i);
+            a += 21;
+            encryptNum += (char)a;
+        }
+        return encryptNum;
+    }
+    public Integer decodeDiscussionId(String encryptText) {
+
+        String decodeText = "";
+        for(int i=0;i<encryptText.length();i++) {
+            int a= (int)encryptText.charAt(i);
+            a -= 21;
+            decodeText +=(char)a;
+        }
+        int decodeId = Integer.parseInt(decodeText);
+        return decodeId;
+    }
+    public boolean hasDuplicate(List<Integer> items) {
+        Set<Integer> appeared = new HashSet<>();
+        for (int item : items) {
+            if (!appeared.add(item)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public void countResultsCity()
     {
 
         final DatabaseReference referenceCity = FirebaseDatabase.getInstance().getReference("CityCandidates");
         final List<Integer> votesList = new ArrayList<>();
+
         if(resultCity)
         {
 
@@ -144,11 +219,22 @@ public class results extends AppCompatActivity {
 
                                 String maxVotes = votes.child("votes").getValue().toString();
 
-                                int i = Integer.parseInt(maxVotes);
+                                int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
+                            /*if(hasDuplicate(votesList))
+                            {
+                                ifSecondRound = true;
+                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
+                                second.setVisibility(View.VISIBLE);
+                                TextView secondTest = findViewById(R.id.SecondRoundTextView);
+                                secondTest.setVisibility(View.VISIBLE);
+                                secondTest.setText("there will be second round of city choosing");
+                                return;
+                            }*/
                             counter = 0;
                             int max = Collections.max(votesList);
+                            
                             Log.d(String.valueOf(max),"LOG KIWAWAA");
                             for(DataSnapshot dt : snapshot.getChildren())
                             {
@@ -156,7 +242,7 @@ public class results extends AppCompatActivity {
 
                                 String votes = dt.child("votes").getValue().toString();
 
-                                int intVotes = Integer.parseInt(votes);
+                                int intVotes = decodeDiscussionId(votes);
                                 if(intVotes==max)
                                 {
                                     TextView name = (TextView)findViewById(R.id.nametext);
@@ -207,6 +293,7 @@ public class results extends AppCompatActivity {
         DatabaseReference referencePresident = FirebaseDatabase.getInstance().getReference("PresidentCandidates");
         DatabaseReference referenceVer = FirebaseDatabase.getInstance().getReference("VerkhovnaRadaParties");
         final List<Integer> votesList = new ArrayList<>();
+
         if(resultCity)
         {
 
@@ -231,9 +318,19 @@ public class results extends AppCompatActivity {
 
                                 String maxVotes = votes.child("votes").getValue().toString();
 
-                                int i = Integer.parseInt(maxVotes);
+                                int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
+                            /*if(hasDuplicate(votesList))
+                            {
+                                ifSecondRound = true;
+                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
+                                second.setVisibility(View.VISIBLE);
+                                TextView secondTest = findViewById(R.id.SecondRoundTextView);
+                                secondTest.setVisibility(View.VISIBLE);
+                                secondTest.setText("there will be second round of mayor choosing");
+                                return;
+                            }*/
                             counter = 0;
                             int max = Collections.max(votesList);
                             Log.d(String.valueOf(max),"LOG KIWAWAA");
@@ -243,7 +340,7 @@ public class results extends AppCompatActivity {
 
                                 String votes = dt.child("votes").getValue().toString();
 
-                                int intVotes = Integer.parseInt(votes);
+                                int intVotes = decodeDiscussionId(votes);
                                 if(intVotes==max)
                                 {
                                     TextView name = (TextView)findViewById(R.id.nametext2);
@@ -294,6 +391,7 @@ public class results extends AppCompatActivity {
         final DatabaseReference referencePresident = FirebaseDatabase.getInstance().getReference("PresidentCandidates");
         DatabaseReference referenceVer = FirebaseDatabase.getInstance().getReference("VerkhovnaRadaParties");
         final List<Integer> votesList = new ArrayList<>();
+
         if(resultCity)
         {
 
@@ -318,9 +416,19 @@ public class results extends AppCompatActivity {
 
                                 String maxVotes = votes.child("votes").getValue().toString();
 
-                                int i = Integer.parseInt(maxVotes);
+                                int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
+                            /*if(hasDuplicate(votesList))
+                            {
+                                ifSecondRound = true;
+                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
+                                second.setVisibility(View.VISIBLE);
+                                TextView secondTest = findViewById(R.id.SecondRoundTextView);
+                                secondTest.setVisibility(View.VISIBLE);
+                                secondTest.setText("there will be second round of president choosing");
+                                return;
+                            }*/
                             counter = 0;
                             int max = Collections.max(votesList);
                             Log.d(String.valueOf(max),"LOG KIWAWAA");
@@ -330,7 +438,7 @@ public class results extends AppCompatActivity {
 
                                 String votes = dt.child("votes").getValue().toString();
 
-                                int intVotes = Integer.parseInt(votes);
+                                int intVotes = decodeDiscussionId(votes);
                                 if(intVotes==max)
                                 {
                                     TextView name = (TextView)findViewById(R.id.nametext3);
@@ -373,6 +481,7 @@ public class results extends AppCompatActivity {
 
         }
     }
+
     public void PartyWinner()
     {
 
@@ -381,6 +490,7 @@ public class results extends AppCompatActivity {
 
         DatabaseReference referenceVer = FirebaseDatabase.getInstance().getReference("VerkhovnaRadaParties");
         final List<Integer> votesList = new ArrayList<>();
+
         if(resultCity)
         {
 
@@ -398,9 +508,19 @@ public class results extends AppCompatActivity {
 
                                 String maxVotes = votes.child("votes").getValue().toString();
 
-                                int i = Integer.parseInt(maxVotes);
+                                int i = decodeDiscussionId(maxVotes);
                                 votesList.add(i);
                             }
+                            /*if(hasDuplicate(votesList))
+                            {
+                                ifSecondRound = true;
+                                RelativeLayout second = findViewById(R.id.relativeSecondTour);
+                                second.setVisibility(View.VISIBLE);
+                                TextView secondTest = findViewById(R.id.SecondRoundTextView);
+                                secondTest.setVisibility(View.VISIBLE);
+                                secondTest.setText("there will be second round of party choosing");
+                                return;
+                            }*/
                             counter = 0;
                             int max = Collections.max(votesList);
                             Log.d(String.valueOf(max),"LOG KIWAWAA");
@@ -410,7 +530,7 @@ public class results extends AppCompatActivity {
 
                                 String votes = dt.child("votes").getValue().toString();
 
-                                int intVotes = Integer.parseInt(votes);
+                                int intVotes = decodeDiscussionId(votes);
                                 if(intVotes==max)
                                 {
 
@@ -444,5 +564,6 @@ public class results extends AppCompatActivity {
 
 
         }
+
     }
 

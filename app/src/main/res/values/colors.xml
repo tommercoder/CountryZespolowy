@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>//text color
-    <color name="colorPrimaryDark">#80000000</color>
+    <color name="colorPrimaryDark">#4C7CE6</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="blue">#4C7CE6</color>
     <color name="lightWhite">#D6E6F1</color>
@@ -10,4 +10,5 @@
     <color name="stopgrad">#60c4f5</color>
     <color name="white">#FFFFFF</color>
     <color name="sureColor">#60c4f5</color>
+
 </resources>

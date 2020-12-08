@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+
+    app:cardUseCompatPadding="true"
+    >
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/action_bar"
+        tools:layout_editor_absoluteY="27dp"
+        >
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/action_bar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/relativeCand"
+            >
+            <!--<Button
+                android:id="@+id/vote_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTE"
+                android:textColor="@color/white"
+                android:background="@drawable/vote_shape"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:visibility="invisible"
+
+                />-->
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:id="@+id/partyrel"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="381dp"
+                android:layout_height="53dp"
+                android:layout_below="@id/partyrel"
+                android:layout_marginTop="-8dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/votes_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@id/votesText"
+                    android:text="Votes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/votesText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Votes:"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/relativeCand2"
+            >
+            <!--<Button
+                android:id="@+id/vote_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTE"
+                android:textColor="@color/white"
+                android:background="@drawable/vote_shape"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:visibility="invisible"
+
+                />-->
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:id="@+id/partyrel2"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partyrel2"
+                android:layout_marginTop="-5dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/votesText2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Votes:"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/votes_id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/votesText2"
+                    android:text="Votes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/relativeCand3"
+            >
+            <!--<Button
+                android:id="@+id/vote_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTE"
+                android:textColor="@color/white"
+                android:background="@drawable/vote_shape"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:visibility="invisible"
+
+                />-->
+
+
+            <RelativeLayout
+
+                android:id="@+id/partyrel3"
+                android:layout_width="390dp"
+
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+                <TextView
+                    android:id="@+id/party_id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partyrel3"
+                android:layout_marginTop="-7dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/votesText3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Votes:"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/votes_id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/votesText3"
+                    android:text="Votes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/relativeCand4"
+            >
+            <!--<Button
+                android:id="@+id/vote_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTE"
+                android:textColor="@color/white"
+                android:background="@drawable/vote_shape"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:visibility="invisible"
+
+                />-->
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:id="@+id/partyrel4"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partyrel4"
+                android:layout_marginTop="-9dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/votesText4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Votes:"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/votes_id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/votesText4"
+                    android:text="Votes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@drawable/background_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/relativeCand5"
+            >
+            <!--<Button
+                android:id="@+id/vote_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOTE"
+                android:textColor="@color/white"
+                android:background="@drawable/vote_shape"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:visibility="invisible"
+
+                />-->
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:id="@+id/partyrel5"
+
+                >
+
+
+                <!--android:textColor="#000"-->
+
+
+
+                <TextView
+                    android:id="@+id/party_id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+
+                    android:text="Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partyrel5"
+                android:layout_marginTop="-9dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/votesText5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Votes:"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/votes_id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/votesText5"
+                    android:text="Votes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            >
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,28 @@ import java.util.List;
 public class myadapterMayor extends FirebaseRecyclerAdapter<model, myadapterMayor.myviewholder>
 {
 
+    public String encodeDiscussionId(int Id) {
 
+        String tempEn = Id + "";
+        String encryptNum ="";
+        for(int i=0;i<tempEn.length();i++) {
+            int a = (int)tempEn.charAt(i);
+            a += 21;
+            encryptNum += (char)a;
+        }
+        return encryptNum;
+    }
+    public Integer decodeDiscussionId(String encryptText) {
+
+        String decodeText = "";
+        for(int i=0;i<encryptText.length();i++) {
+            int a= (int)encryptText.charAt(i);
+            a -= 21;
+            decodeText +=(char)a;
+        }
+        int decodeId = Integer.parseInt(decodeText);
+        return decodeId;
+    }
     public myadapterMayor(@NonNull FirebaseRecyclerOptions<model> options) {
         super(options);
 
@@ -127,11 +148,19 @@ public class myadapterMayor extends FirebaseRecyclerAdapter<model, myadapterMayo
                                         public void onClick(View view) {
                                             //vote
                                             String votes = snapshot.child(city).child(number).child("votes").getValue().toString();
-                                            int votes1 = Integer.parseInt(votes.trim());
-                                            votes1++;
-                                            String new_votes = Integer.toString(votes1);
+                                           int max = 100000;
+                                            int votes1 = decodeDiscussionId(votes);
+                                            Log.d("votes","votes" + votes1);
+                                            max -=1 ;
+                                            reff.child(city).child(number).child("order").setValue(max);
 
-                                            reff.child(city).child(number).child("votes").setValue(new_votes);
+                                            max = 100000;
+                                            votes1++;
+                                            String VOTEStoFire = encodeDiscussionId(votes1);
+
+                                            //String new_votes = Integer.toString(votes1);
+
+                                            reff.child(city).child(number).child("votes").setValue(VOTEStoFire);
                                             reff_users.child(user.getUid()).child("votedMayor").setValue("yes");
                                             alertDialog.dismiss();
                                         }

@@ -1,6 +1,7 @@
 package com.example.country.ActivitiesNav.forElections;
 
 import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,7 +30,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 public class myadapter extends FirebaseRecyclerAdapter<model, myadapter.myviewholder>
@@ -89,97 +94,103 @@ public class myadapter extends FirebaseRecyclerAdapter<model, myadapter.myviewho
                             @Override
                             public void onDataChange(@NonNull final DataSnapshot snapshot) {
 
-                               String info = snapshot.child(city).child(number).getValue().toString();//data of clicked city candidate
-                                String name = snapshot.child(city).child(number).child("name").getValue().toString();
 
+                                final String name = snapshot.child(city).child(number).child("name").getValue().toString();
 
-
-
-
-                                if(voted.equals("no"))
-                                {
-                                    Log.d("INFO",info);
-                                    //if (!vote_seen) {
-                                    final AlertDialog.Builder alert = new AlertDialog.Builder(view.getContext(), R.style.AlertDialogTheme);
-                                    View view1 = LayoutInflater.from(view.getContext()).inflate(
-                                            R.layout.sure_window,
-                                            (ConstraintLayout)view.findViewById(R.id.layoutDialog)
-
-                                    );
-                                    alert.setView(view1);
-                                    alert.setCancelable(false);
-                                    TextView sure = (TextView)view1.findViewById(R.id.textTitle);
-                                    sure.setText(R.string.title_sure);
-                                    TextView textMessage = (TextView)view1.findViewById(R.id.textMessage);
-                                    textMessage.setText("Are you sure you want to vote for "+ name + " ?");
-                                    Button yes = (Button)view1.findViewById(R.id.buttonYes);
-                                    yes.setText(R.string.vote);
-                                    Button no = (Button)view1.findViewById(R.id.buttonNo);
-                                    no.setText(R.string.voteback);
-                                    ImageView image = (ImageView)view1.findViewById(R.id.imageIcon);
-                                    image.setImageResource(R.drawable.vote_logo);
-
-
-                                    final AlertDialog alertDialog = alert.create();
-
-                                    view1.findViewById(R.id.buttonYes).setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            //vote
-                                            String votes = snapshot.child(city).child(number).child("votes").getValue().toString();
-                                            int votes1 = Integer.parseInt(votes.trim());
-                                            votes1++;
-                                            String new_votes = Integer.toString(votes1);
-
-                                            reff.child(city).child(number).child("votes").setValue(new_votes);
-                                            reff_users.child(user.getUid()).child("votedCity").setValue("yes");
-                                            alertDialog.dismiss();
-                                        }
-                                    });
-                                    view1.findViewById(R.id.buttonNo).setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            alertDialog.dismiss();
-                                        }
-                                    });
-
-                                    if(alertDialog.getWindow()!=null)
+                            reff.child(city).addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(@NonNull final DataSnapshot snapshot) {
+                                    List<Integer> votes = new ArrayList<>();
+                                    for(DataSnapshot data : snapshot.getChildren())
                                     {
-                                        alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
+
+                                        int vote = decodeDiscussionId(data.child("votes").getValue().toString());
+                                        votes.add(vote);
+
+
                                     }
 
-                                    alertDialog.show();
-                                       /* holder.vote_btn.setVisibility(View.VISIBLE);
-                                        holder.vote_btn.setOnClickListener(new View.OnClickListener() {
+                                    final int votesMax = Collections.max(votes);
+
+                                    if(voted.equals("no"))
+                                    {
+
+                                        //if (!vote_seen) {
+                                        final AlertDialog.Builder alert = new AlertDialog.Builder(view.getContext(), R.style.AlertDialogTheme);
+                                        View view1 = LayoutInflater.from(view.getContext()).inflate(
+                                                R.layout.sure_window,
+                                                (ConstraintLayout)view.findViewById(R.id.layoutDialog)
+
+                                        );
+                                        alert.setView(view1);
+                                        alert.setCancelable(false);
+                                        TextView sure = (TextView)view1.findViewById(R.id.textTitle);
+                                        sure.setText(R.string.title_sure);
+                                        TextView textMessage = (TextView)view1.findViewById(R.id.textMessage);
+                                        textMessage.setText("Are you sure you want to vote for "+ name + " ?");
+                                        Button yes = (Button)view1.findViewById(R.id.buttonYes);
+                                        yes.setText(R.string.vote);
+                                        Button no = (Button)view1.findViewById(R.id.buttonNo);
+                                        no.setText(R.string.voteback);
+                                        ImageView image = (ImageView)view1.findViewById(R.id.imageIcon);
+                                        image.setImageResource(R.drawable.vote_logo);
+
+
+                                        final AlertDialog alertDialog = alert.create();
+
+                                        view1.findViewById(R.id.buttonYes).setOnClickListener(new View.OnClickListener() {
+                                            @RequiresApi(api = Build.VERSION_CODES.N)
                                             @Override
                                             public void onClick(View view) {
+                                                //vote
+                                                String votes = snapshot/*.child(city)*/.child(number).child("votes").getValue().toString();
+                                                int max = 100000;
+                                                int votes1 = decodeDiscussionId(votes);
+                                                Log.d("Max","votes" + votesMax + " " + votes1);
 
-                                                String votes = snapshot.child(city).child(number).child("votes").getValue().toString();
-                                                int votes1 = Integer.parseInt(votes.trim());
+                                                    max -=1 ;
+                                                    reff.child(city).child(number).child("order").setValue(max);
+
+                                                max = 100000;
+                                                Log.d("votes","votes" + votes1);
+
                                                 votes1++;
-                                                String new_votes = Integer.toString(votes1);
+                                                String VOTEStoFire = encodeDiscussionId(votes1);
 
-                                                reff.child(city).child(number).child("votes").setValue(new_votes);
+                                                //String new_votes = Integer.toString(votes1);
+
+                                                reff.child(city).child(number).child("votes").setValue(VOTEStoFire);
+                                                //reff.child(city).child(number).child("votes").setValue(hashVotes);
                                                 reff_users.child(user.getUid()).child("votedCity").setValue("yes");
-                                                holder.vote_btn.setVisibility(View.GONE);
-
-
-
+                                                alertDialog.dismiss();
                                             }
                                         });
-                                        vote_seen = true;
+                                        view1.findViewById(R.id.buttonNo).setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+                                                alertDialog.dismiss();
+                                            }
+                                        });
 
-                                    } else
+                                        if(alertDialog.getWindow()!=null)
                                         {
-                                        holder.vote_btn.setVisibility(View.GONE);
-                                        vote_seen = false;
+                                            alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
+                                        }
 
-                                    }*/
+                                        alertDialog.show();
+
+
+                                    }
                                 }
-                                else
-                                {
+
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError error) {
 
                                 }
+                            });
+
+
+
 
 
                             }
@@ -265,5 +276,27 @@ public class myadapter extends FirebaseRecyclerAdapter<model, myadapter.myviewho
         }
     }
 
+   public String encodeDiscussionId(int Id) {
+
+        String tempEn = Id + "";
+        String encryptNum ="";
+        for(int i=0;i<tempEn.length();i++) {
+            int a = (int)tempEn.charAt(i);
+            a += 21;
+            encryptNum += (char)a;
+        }
+        return encryptNum;
+    }
+    public Integer decodeDiscussionId(String encryptText) {
+
+        String decodeText = "";
+        for(int i=0;i<encryptText.length();i++) {
+            int a= (int)encryptText.charAt(i);
+            a -= 21;
+            decodeText +=(char)a;
+        }
+        int decodeId = Integer.parseInt(decodeText);
+        return decodeId;
+    }
 
 }

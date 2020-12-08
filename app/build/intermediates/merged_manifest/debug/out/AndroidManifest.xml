@@ -26,9 +26,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
+            android:name="com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes"
+            android:parentActivityName="com.example.country.ActivitiesNav.results" />
+        <activity
+            android:name="com.example.country.ActivitiesNav.forElections.ResultActivities.all_mayor_votes"
+            android:parentActivityName="com.example.country.ActivitiesNav.results" />
+        <activity
+            android:name="com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes"
+            android:parentActivityName="com.example.country.ActivitiesNav.results" />
+        <activity
+            android:name="com.example.country.ActivitiesNav.forElections.ResultActivities.all_president_votes"
+            android:parentActivityName="com.example.country.ActivitiesNav.results" />
+        <activity
             android:name="com.example.country.ActivitiesNav.update_pass_profile"
-            android:theme="@style/AppTheme.PopMe" >
-        </activity>
+            android:theme="@style/AppTheme.PopMe" />
         <activity
             android:name="com.example.country.ActivitiesNav.edit_profile_act"
             android:parentActivityName="com.example.country.ActivitiesNav.profile_act" />

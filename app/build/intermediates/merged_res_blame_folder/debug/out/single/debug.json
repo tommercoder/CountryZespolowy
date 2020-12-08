@@ -20,6 +20,10 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_president_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_president_votes.xml"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_mayor_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_mayor_votes.xml"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_burger_btn.xml.flat",
@@ -344,6 +352,10 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_ver_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_ver_votes.xml"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chart_icon.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\chart_icon.png"
     },
@@ -422,6 +434,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_icon.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_icon.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_city_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_city_votes.xml"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_phone.png.flat",
@@ -506,6 +522,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_passport.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_passport.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_president_recycle_design.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\president_recycle_design.xml"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_election_act.xml.flat",

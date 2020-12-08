@@ -2,7 +2,7 @@ package com.example.country.ActivitiesNav.forElections;
 
 public class model {
 
-    String name,age,party,purl,info;
+    String name,age,party,purl,info,votes;
     public int position;
     private boolean expanded;
     boolean vote;
@@ -10,7 +10,7 @@ public class model {
     {
 
     }
-    public model(String name, String age, String party, String purl,String info)
+    public model(String name, String age, String party, String purl,String info,String votes)
     {
         this.name = name;
         this.age = age;
@@ -19,6 +19,15 @@ public class model {
         this.info = info;
         this.expanded = false;
         this.vote = false;
+        this.votes = votes;
+    }
+
+    public String getVotes() {
+        return votes;
+    }
+
+    public void setVotes(String votes) {
+        this.votes = votes;
     }
 
     public boolean isVote() {
