@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout   xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainmenu"
     android:fitsSystemWindows="true"
-
+    tools:context=".mainmenu"
 
 
     tools:ignore="MissingClass">
 
 
-//navigation bar design
+
+    //navigation bar design
+
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/nav_view"
-        app:headerLayout="@layout/header"
-        app:menu="@menu/burger_res"
         android:layout_gravity="start"
-        app:itemIconTint="@color/blue"/> <!--icon colors changed-->
+        app:headerLayout="@layout/header"
+        app:itemIconTint="@color/blue"
+        app:menu="@menu/burger_res"
+        tools:ignore="MissingConstraints" /> <!--icon colors changed-->
 
 
+    //main menu design
 
-//main menu design
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/linearLayout"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -46,7 +45,7 @@
                 layout="@layout/action_bar">
 
             </include>
-        
+
 
             <ImageView
                 android:layout_width="40dp"
@@ -56,6 +55,280 @@
 
         </RelativeLayout>
 
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            app:compactCalendarBackgroundColor="#00648DCC"
+            app:compactCalendarCurrentDayBackgroundColor="#A83F51B5"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#A94CAF50"
+            app:compactCalendarMultiEventIndicatorColor="#00BCD4"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextColor="#3F51B5"
+            app:compactCalendarTextSize="16sp"
+
+            />
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain1"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="Election"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/election" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain2"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="Results
+     "
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:contentDescription="TODO"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:srcCompat="@drawable/chart_icon"
+                        tools:ignore="VectorDrawableCompat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain3"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="My Profil"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:srcCompat="@drawable/profile_icon" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain4"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="Phone us"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:srcCompat="@drawable/callus_icon"
+                        tools:ignore="VectorDrawableCompat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain5"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="Mail us"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:srcCompat="@drawable/emailus_icon"
+                        tools:ignore="VectorDrawableCompat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/background_border_choosing_el"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                    <TextView
+                        android:id="@+id/textViewMain6"
+                        android:layout_width="126dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/bgb"
+                        android:padding="8dp"
+                        android:text="setings"
+                        android:textAllCaps="true"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="DuplicateIds,MissingConstraints"
+                        tools:layout_editor_absoluteY="-2dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMain6"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:srcCompat="@drawable/emailus_icon"
+                        tools:ignore="VectorDrawableCompat" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

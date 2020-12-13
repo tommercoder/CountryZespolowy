@@ -121,6 +121,7 @@ public class city_votes extends AppCompatActivity {
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                                     int sum = 0;
                                     int counter = 0;
+
                                     for(DataSnapshot data : snapshot.getChildren())
                                     {
                                         int vote = decodeDiscussionId(data.child("votes").getValue().toString());

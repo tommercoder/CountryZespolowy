@@ -9,6 +9,7 @@ MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Serhii Tomashevsk
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\d50cd6b26a7e2f39fca2f5b691d3f8e5\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dd4ba36f6332a41d58236c8817f5cfd8\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -346,6 +347,8 @@ MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Toma
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\d50cd6b26a7e2f39fca2f5b691d3f8e5\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:5:5-44

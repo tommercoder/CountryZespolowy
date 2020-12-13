@@ -76,10 +76,9 @@ public class city_elections extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                            if (city.equals(snapshot.child("city").getValue().toString())) {//check if city of user equals to city in gov data base
+                            if(city.equals(snapshot.child("city").getValue().toString())) {//check if city of user equals to city in gov data base
 
                                 city_name.setText(city);//set city to EditText
-
 
                                 FirebaseRecyclerOptions<model> options =
                                         new FirebaseRecyclerOptions.Builder<model>()
@@ -90,7 +89,9 @@ public class city_elections extends AppCompatActivity {
                                 recyclerView.setAdapter(adapter);//adding adapter to recycle view
                                 adapter.startListening();//start listening from firebase
 
-                            } else {
+                            }
+                            else
+                            {
                                 Toast.makeText(city_elections.this, "Your city is'nt like in your passport\ntry go to support", Toast.LENGTH_LONG).show();
                             }
                         }

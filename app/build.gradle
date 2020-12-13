@@ -70,6 +70,6 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:21.+'
     //noinspection GradleCompatible
     implementation 'com.android.support:design:24.0.0'
-
+    implementation 'com.github.sundeepk:compact-calendar-view:3.0.0'
 
 }

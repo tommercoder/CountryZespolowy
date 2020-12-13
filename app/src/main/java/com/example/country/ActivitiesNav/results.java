@@ -338,7 +338,7 @@ public class results extends AppCompatActivity {
                             copyList.remove(votesList.indexOf(maxVote));
                             Boolean sameMax = false;
                             for (int i = 0; i < copyList.size(); i++) {
-                                if (copyList.get(i).equals(maxVote)) {
+                                if (copyList.get(i).equals(maxVote) && percentage > 50) {
                                     sameMax = true;
                                 }
                             }
@@ -346,8 +346,8 @@ public class results extends AppCompatActivity {
                                 ifSecondRound = true;
                             }
                        
-                            if (ifSecondRound || sameMax) {
-
+                            if (ifSecondRound || sameMax)
+                            {
 
                                 TextView mayorText = findViewById(R.id.mayorWinnerSign);
                                 RelativeLayout mayorRelative = findViewById(R.id.mayorWinner);
@@ -364,7 +364,9 @@ public class results extends AppCompatActivity {
                                 age.setText(" ");
                                 party.setText(" ");
                                 image.setVisibility(View.GONE);
-                            } else {
+                            }
+                            else
+                                {
 
                                 counter = 0;
                                 int max = Collections.max(votesList);
@@ -456,32 +458,29 @@ public class results extends AppCompatActivity {
                             int maxVote = Collections.max(votesList);
                             //if there is no the guy thow reach 50% + 1 vote then there will be second tour;
                             int sum = 0;
-                            for(int i = 0;i < votesList.size();i++)
-                            {
-                               sum += votesList.get(i);
+                            for (int i = 0; i < votesList.size(); i++) {
+                                sum += votesList.get(i);
                             }
-                            double result = (maxVote+1)/(double)sum;
-                            int percentage = (int)(result*100.0f);//51 set
+                            double result = (maxVote + 1) / (double) sum;
+                            int percentage = 51;//(int)(result*100.0f);//51 set
 
-                            Log.d("all votes","=" + sum);
-                            Log.d("max vote","=" + maxVote);
-                            Log.d("the percentage","=" + percentage);
+                            Log.d("all votes", "=" + sum);
+                            Log.d("max vote", "=" + maxVote);
+                            Log.d("the percentage", "=" + percentage);
                             List<Integer> copyList = new ArrayList<>();
                             copyList = votesList;
                             copyList.remove(votesList.indexOf(maxVote));
                             Boolean sameMax = false;
-                            for(int i = 0;i < copyList.size();i++)
-                            {
-                                if(copyList.get(i).equals(maxVote))
-                                {
-                                   sameMax = true;
+                            for (int i = 0; i < copyList.size(); i++) {
+                                if (copyList.get(i).equals(maxVote) && percentage > 50) {
+                                    sameMax = true;
                                 }
                             }
-                            if(percentage < 50)
-                            {
+                            if (percentage < 50) {
                                 ifSecondRound = true;
                             }
-                            if (ifSecondRound || sameMax) {
+                            if (ifSecondRound)// || sameMax) {
+                            {
 
 
                                 /*RelativeLayout second = findViewById(R.id.relativeSecondTour);
