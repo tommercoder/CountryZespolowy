@@ -953,6 +953,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1324,15 +1325,18 @@ drawable googleg_standard_color_18
 drawable heades_gradient
 drawable home_icon
 drawable homechoices_icon
+drawable ic_back_arrow
+drawable ic_circle
+drawable ic_city
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_profile_city
+drawable ic_passport
+drawable ic_phone
 drawable ic_profile_email
 drawable ic_profile_icon
-drawable ic_profile_passport
 drawable ic_profile_password
 drawable ic_profile_phone
 drawable info_shape
@@ -1354,6 +1358,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pop_bg
+drawable profile_background_shape
 drawable profile_icon
 drawable referendum_icon
 drawable results_design
@@ -1365,6 +1370,7 @@ drawable tooltip_frame_light
 drawable vote_logo
 drawable white_house
 font baloo
+font basic
 font bgb
 font fonts
 font osr
@@ -1579,15 +1585,21 @@ id ignore
 id ignoreRequest
 id image
 id imageIcon
+id imageView
 id imageView10
 id imageView2
 id imageView3
+<<<<<<< HEAD
 id imageViewMain1
 id imageViewMain2
 id imageViewMain3
 id imageViewMain4
 id imageViewMain5
 id imageViewMain6
+=======
+id imageView5
+id imageView6
+>>>>>>> origin/max_profile
 id img1
 id img2
 id img3
@@ -1780,6 +1792,9 @@ id textView12
 id textView2
 id textView4
 id textView5
+id textView7
+id textView8
+id textView9
 id textViewExp
 id textViewMain1
 id textViewMain2

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com/example/country/ActivitiesNav/forElections/myadapter.java
  com.example.country.ActivitiesNav.forElections.myadapter
  com.example.country.ActivitiesNav.forElections.myadapter$1
@@ -8,6 +9,15 @@ com/example/country/ActivitiesNav/forElections/myadapter.java
  com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1$2
  com.example.country.ActivitiesNav.forElections.myadapter$myviewholder
  com.example.country.ActivitiesNav.forElections.myadapter$myviewholder$1
+=======
+com/example/country/mainmenu.java
+ com.example.country.mainmenu
+com/example/country/ActivitiesNav/forElections/model.java
+ com.example.country.ActivitiesNav.forElections.model
+com/example/country/email.java
+ com.example.country.email
+ com.example.country.email$1
+>>>>>>> origin/max_profile
 com/example/country/ActivitiesNav/forElections/myadapterVer.java
  com.example.country.ActivitiesNav.forElections.myadapterVer
  com.example.country.ActivitiesNav.forElections.myadapterVer$1
@@ -17,6 +27,11 @@ com/example/country/ActivitiesNav/forElections/myadapterVer.java
  com.example.country.ActivitiesNav.forElections.myadapterVer$1$1$1$2
  com.example.country.ActivitiesNav.forElections.myadapterVer$myviewholder
  com.example.country.ActivitiesNav.forElections.myadapterVer$myviewholder$1
+<<<<<<< HEAD
+=======
+com/example/country/Models/User.java
+ com.example.country.Models.User
+>>>>>>> origin/max_profile
 com/example/country/ActivitiesNav/forElections/myadapterMayor.java
  com.example.country.ActivitiesNav.forElections.myadapterMayor
  com.example.country.ActivitiesNav.forElections.myadapterMayor$1
@@ -26,15 +41,40 @@ com/example/country/ActivitiesNav/forElections/myadapterMayor.java
  com.example.country.ActivitiesNav.forElections.myadapterMayor$1$1$1$2
  com.example.country.ActivitiesNav.forElections.myadapterMayor$myviewholder
  com.example.country.ActivitiesNav.forElections.myadapterMayor$myviewholder$1
+<<<<<<< HEAD
 com/example/country/Models/User.java
  com.example.country.Models.User
+=======
+com/example/country/ActivitiesNav/forElections/myadapterPresident.java
+ com.example.country.ActivitiesNav.forElections.myadapterPresident
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$1
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$1$1
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$1$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$1$1$1$2
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$myviewholder
+ com.example.country.ActivitiesNav.forElections.myadapterPresident$myviewholder$1
+>>>>>>> origin/max_profile
 com/example/country/ActivitiesNav/forElections/city_elections.java
  com.example.country.ActivitiesNav.forElections.city_elections
  com.example.country.ActivitiesNav.forElections.city_elections$1
  com.example.country.ActivitiesNav.forElections.city_elections$1$1
+<<<<<<< HEAD
 com/example/country/phone.java
  com.example.country.phone
  com.example.country.phone$1
+=======
+com/example/country/register_window.java
+ com.example.country.register_window
+ com.example.country.register_window$1
+ com.example.country.register_window$2
+ com.example.country.register_window$2$1
+ com.example.country.register_window$2$1$1
+ com.example.country.register_window$2$1$1$1
+ com.example.country.register_window$2$1$1$1$1
+ com.example.country.register_window$2$1$1$1$2
+ com.example.country.register_window$2$1$1$1$3
+>>>>>>> origin/max_profile
 com/example/country/ActivitiesNav/forElections/president_election.java
  com.example.country.ActivitiesNav.forElections.president_election
 com/example/country/ActivitiesNav/election_act.java
@@ -85,32 +125,67 @@ com/example/country/ActivitiesNav/edit_profile_act.java
  com.example.country.ActivitiesNav.edit_profile_act
  com.example.country.ActivitiesNav.edit_profile_act$1
  com.example.country.ActivitiesNav.edit_profile_act$1$1
- com.example.country.ActivitiesNav.edit_profile_act$1$2
  com.example.country.ActivitiesNav.edit_profile_act$2
+<<<<<<< HEAD
 com/example/country/ActivitiesNav/forElections/adapterCityVotes.java
  com.example.country.ActivitiesNav.forElections.adapterCityVotes
  com.example.country.ActivitiesNav.forElections.adapterCityVotes$myviewholder
+=======
+ com.example.country.ActivitiesNav.edit_profile_act$2$1
+ com.example.country.ActivitiesNav.edit_profile_act$2$2
+ com.example.country.ActivitiesNav.edit_profile_act$3
+>>>>>>> origin/max_profile
 com/example/country/ActivitiesNav/profile_act.java
  com.example.country.ActivitiesNav.profile_act
  com.example.country.ActivitiesNav.profile_act$1
  com.example.country.ActivitiesNav.profile_act$2
  com.example.country.ActivitiesNav.profile_act$2$1
+<<<<<<< HEAD
 com/example/country/ActivitiesNav/forElections/ResultActivities/all_ver_votes.java
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes$1
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_ver_votes$1$1
+=======
+ com.example.country.ActivitiesNav.profile_act$2$2
+ com.example.country.ActivitiesNav.profile_act$3
+ com.example.country.ActivitiesNav.profile_act$4
+>>>>>>> origin/max_profile
 com/example/country/BuildConfig.java
  com.example.country.BuildConfig
 com/example/country/ActivitiesNav/update_pass_profile.java
  com.example.country.ActivitiesNav.update_pass_profile
  com.example.country.ActivitiesNav.update_pass_profile$1
  com.example.country.ActivitiesNav.update_pass_profile$1$1
+<<<<<<< HEAD
+=======
+ com.example.country.ActivitiesNav.update_pass_profile$1$1$1
+ com.example.country.ActivitiesNav.update_pass_profile$1$1$1$1
+com/example/country/ActivitiesNav/forElections/myadapter.java
+ com.example.country.ActivitiesNav.forElections.myadapter
+ com.example.country.ActivitiesNav.forElections.myadapter$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$2
+ com.example.country.ActivitiesNav.forElections.myadapter$myviewholder
+ com.example.country.ActivitiesNav.forElections.myadapter$myviewholder$1
+com/example/country/ActivitiesNav/forElections/VerkhovnaRadaElection.java
+ com.example.country.ActivitiesNav.forElections.VerkhovnaRadaElection
+com/example/country/ActivitiesNav/forElections/mayor_elections.java
+ com.example.country.ActivitiesNav.forElections.mayor_elections
+ com.example.country.ActivitiesNav.forElections.mayor_elections$1
+ com.example.country.ActivitiesNav.forElections.mayor_elections$1$1
+com/example/country/phone.java
+ com.example.country.phone
+ com.example.country.phone$1
+>>>>>>> origin/max_profile
 com/example/country/MainActivity.java
  com.example.country.MainActivity
  com.example.country.MainActivity$1
  com.example.country.MainActivity$2
  com.example.country.MainActivity$3
  com.example.country.MainActivity$4
+<<<<<<< HEAD
 com/example/country/register_window.java
  com.example.country.register_window
  com.example.country.register_window$1
@@ -143,3 +218,5 @@ com/example/country/ActivitiesNav/results.java
  com.example.country.ActivitiesNav.results$7
  com.example.country.ActivitiesNav.results$7$1
  com.example.country.ActivitiesNav.results$8
+=======
+>>>>>>> origin/max_profile

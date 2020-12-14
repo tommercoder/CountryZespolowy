@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Mon Dec 14 12:15:18 EET 2020
 base.0=D\:\\CountryZespolowy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Mon Dec 14 11:09:03 CET 2020
+base.0=/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+>>>>>>> origin/max_profile
 path.0=classes.dex
 renamed.0=classes.dex

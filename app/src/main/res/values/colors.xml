@@ -13,4 +13,6 @@
     <color name="resGradStart">#ffc3a0 </color>
     <color name="resGradStop">#ffafbd</color>
     <color name="grey">#ababab</color>
+    <color name="yellow">#ebe834</color>
+
 </resources>

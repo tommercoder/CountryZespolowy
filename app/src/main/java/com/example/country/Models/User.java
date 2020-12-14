@@ -1,7 +1,9 @@
 package com.example.country.Models;
 
+import android.net.Uri;
+
 public class User {
-    private String email,passport,phone, password,city,votedCity,votedMayor,votedPresident,votedVer;
+    private String email,passport,phone, password,city,votedCity,votedMayor,votedPresident,votedVer,imageUrl;
 
     public User(){}
 
@@ -15,6 +17,16 @@ public class User {
         this.votedMayor = votedMayor;
         this.votedPresident = votedPresident;
         this.votedVer = votedVer;
+        this.imageUrl = imageUrl;
+
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String getCity()

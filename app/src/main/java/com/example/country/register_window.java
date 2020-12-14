@@ -32,6 +32,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +47,8 @@ public class register_window extends AppCompatActivity {
 
     FirebaseAuth auth;
     ProgressBar progressBar;
+    private StorageReference mStorageRef;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +56,8 @@ public class register_window extends AppCompatActivity {
 
         setContentView(R.layout.activity_register_window);
         auth = FirebaseAuth.getInstance();
+
+        mStorageRef = FirebaseStorage.getInstance().getReference();
 
         RegisterButton = findViewById(R.id.registerButton);
 
@@ -167,6 +173,10 @@ public class register_window extends AppCompatActivity {
                                                             user.setVotedMayor("no");
                                                             user.setVotedPresident("no");
                                                             user.setVotedVer("no");
+                                                            //Getting picture from DB
+                                                            StorageReference riversRef = mStorageRef.child("images/"+"cdbf31ae-7015-4aa7-b7aa-a4a6873cab51");
+                                                            user.setImageUrl(riversRef.toString());
+
                                                             final DatabaseReference users = FirebaseDatabase.getInstance().getReference("Users");
 
                                                             users.child(FirebaseAuth.getInstance().getCurrentUser().getUid())

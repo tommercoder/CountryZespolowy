@@ -7,17 +7,21 @@
     android:orientation="vertical"
     tools:context=".ActivitiesNav.profile_act">
 
+
     <include
         android:id="@+id/action_bar_2"
         layout="@layout/action_bar">
 
+
     </include>
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:padding="20dp"
-        android:background="@drawable/heades_gradient">
+        android:background="@drawable/profile_background_shape"
+        android:padding="20dp">
+
 
         <TextView
             android:id="@+id/id_user_name"
@@ -27,10 +31,11 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="9dp"
             android:layout_toRightOf="@id/profile_image"
-            android:fontFamily="@font/bgb"
+            android:fontFamily="@font/basic"
             android:includeFontPadding="false"
             android:padding="10dp"
             android:text="Name Surname"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <TextView
@@ -41,10 +46,11 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/profile_image"
-            android:fontFamily="@font/bgb"
+            android:fontFamily="@font/basic"
             android:includeFontPadding="false"
             android:padding="10dp"
             android:text="user Mail"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <Button
@@ -56,21 +62,32 @@
             android:layout_marginTop="7dp"
             android:layout_marginEnd="6dp"
             android:background="#00FF0000"
+            android:fontFamily="@font/bgb"
             android:text="Edit"
-            android:textColorLink="#2196F3"
-            android:fontFamily="@font/bgb"/>
+            android:textColor="#FFFFFF"
+            android:textColorLink="#2196F3" />
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profile_icon"/>
+
+        <!--
         <ImageView
             android:id="@+id/profile_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_centerVertical="true"
             android:src="@drawable/profile_icon" />
+        -->
 
 
     </RelativeLayout>
 
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -78,35 +95,116 @@
 
         <TextView
             android:id="@+id/id_user_city"
-            android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:drawableLeft="@drawable/ic_profile_city"
-            android:fontFamily="@font/bgb"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="150dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:fontFamily="@font/basic"
             android:padding="10dp"
             android:text="City"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/id_user_passport"
-            android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:drawableLeft="@drawable/ic_profile_passport"
-            android:fontFamily="@font/bgb"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/id_user_city"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="150dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:fontFamily="@font/basic"
             android:padding="10dp"
             android:text="Passport"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/id_user_phone"
-            android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:drawableLeft="@drawable/ic_profile_phone"
-            android:fontFamily="@font/bgb"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/id_user_passport"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="150dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:fontFamily="@font/basic"
             android:padding="10dp"
             android:text="Phone"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/ic_city" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_passport" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_phone" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="50dp"
+            android:text="CIty"
+            android:textColor="#100E0E"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_user_city"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="25dp"
+            android:text="Passport"
+            android:textColor="#100E0E"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_user_passport"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="25dp"
+            android:text="Phone"
+            android:textColor="#100E0E"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
 
 
 </LinearLayout>
