@@ -4,9 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.net.Credentials;
+import android.net.wifi.hotspot2.pps.Credential;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
@@ -15,13 +18,20 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.country.R;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthRecentLoginRequiredException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.core.Tag;
 
 public class update_pass_profile extends Activity {
 
@@ -32,6 +42,8 @@ public class update_pass_profile extends Activity {
     DatabaseReference users = FirebaseDatabase.getInstance().getReference("Users");
 
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +70,8 @@ public class update_pass_profile extends Activity {
         NewPasswordText = findViewById(R.id.new_password);
         confirmButton = findViewById(R.id.id_confirm_button);
 
+
+
         users.child(user.getUid()).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull final DataSnapshot snapshot) {
@@ -65,17 +79,45 @@ public class update_pass_profile extends Activity {
                 confirmButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String OldPassFromDB = snapshot.child("password").getValue().toString();
+                        final String OldPassFromDB = snapshot.child("password").getValue().toString();
                         String OldPass = OldPasswordText.getText().toString();
-                        String NewPass = NewPasswordText.getText().toString();
+                        final String NewPass = NewPasswordText.getText().toString();
+                        String MailfromDB = snapshot.child("email").getValue().toString();
 
-                        if (OldPass.equals(OldPassFromDB)) {
-                            users.child(user.getUid()).child("password").setValue(NewPass);
-                            Toast.makeText(update_pass_profile.this, "Password has been updated", Toast.LENGTH_LONG).show();
-                        } else {
-                            Toast.makeText(update_pass_profile.this, "Old password is incorrect!", Toast.LENGTH_LONG).show();
+
+                        if (user!=null) {
+                            if (OldPass.equals(OldPassFromDB)) {
+
+                                //new FirebaseAuthRecentLoginRequiredException(MailfromDB,OldPassFromDB);
+
+                                AuthCredential credential = EmailAuthProvider.getCredential(MailfromDB, OldPassFromDB);
+
+                                user.reauthenticate(credential).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            user.updatePassword(NewPass).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                @Override
+                                                public void onComplete(@NonNull Task<Void> task) {
+                                                    if (task.isSuccessful()) {
+                                                        users.child(user.getUid()).child("password").setValue(NewPass);
+                                                        Toast.makeText(update_pass_profile.this, "Password has been updated", Toast.LENGTH_LONG).show();
+                                                        finish();
+                                                    } else {
+                                                        Toast.makeText(update_pass_profile.this, "Something went wrong:(", Toast.LENGTH_LONG).show();
+                                                        Log.d("TAG","Messege: "+task.getException().getMessage().toString());
+                                                    }
+                                                }
+                                            });
+                                        } else {
+                                            Toast.makeText(update_pass_profile.this, "Something(cred) went wrong:(", Toast.LENGTH_LONG).show();
+                                        }
+                                    }
+                                });
+                            } else {
+                                Toast.makeText(update_pass_profile.this, "Old password is incorrect!", Toast.LENGTH_LONG).show();
+                            }
                         }
-
 
                     }
                 });
