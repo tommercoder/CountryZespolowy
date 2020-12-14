@@ -161,7 +161,7 @@ public class register_window extends AppCompatActivity {
                                                             user.setEmail(EmailText.getText().toString());
                                                             user.setPassport(PassportText.getText().toString());
                                                             user.setPhone(PhoneText.getText().toString());
-                                                            user.setPassword(PasswordText.getText().toString());
+                                                            //user.setPassword(PasswordText.getText().toString());
                                                             user.setCity(CityText.getText().toString());
                                                             user.setVotedCity("no");
                                                             user.setVotedMayor("no");

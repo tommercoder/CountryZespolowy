@@ -259,11 +259,13 @@ public class results extends AppCompatActivity {
                                     age.setText(ageDB);
                                     party.setText(partyDB);
                                     Glide.with(image).load(imgDB).into(image);
+
                                     DatabaseReference res = FirebaseDatabase.getInstance().getReference("result");
                                     res.child("CityResult").child("name").setValue(nameDB);
                                     res.child("CityResult").child("age").setValue(ageDB);
                                     res.child("CityResult").child("party").setValue(partyDB);
                                     res.child("CityResult").child("votes").setValue(max);
+                                    res.child("CityResult").child("purl").setValue(imgDB);
                                 }
                             }
                         }
@@ -397,6 +399,7 @@ public class results extends AppCompatActivity {
                                         res.child("mayorResult").child("age").setValue(ageDB);
                                         res.child("mayorResult").child("party").setValue(partyDB);
                                         res.child("mayorResult").child("votes").setValue(max);
+                                        res.child("mayorResult").child("purl").setValue(imgDB);
                                     }
                                 }
                             }
@@ -536,6 +539,7 @@ public class results extends AppCompatActivity {
                                         res.child("PresidentResult").child("age").setValue(ageDB);
                                         res.child("PresidentResult").child("party").setValue(partyDB);
                                         res.child("PresidentResult").child("votes").setValue(max);
+                                        res.child("PresidentResult").child("purl").setValue(imgDB);
                                     }
                                 }
                             }
