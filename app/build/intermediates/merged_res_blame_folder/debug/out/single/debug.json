@@ -36,6 +36,10 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\chart_icon.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid_foreground.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_pass_change.xml.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\shape_pass_change.xml"
     },
@@ -52,16 +56,24 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\settingsicon.png"
     },
     {
-        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_phone.xml.flat",
-        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_phone.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_password.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_password.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_phone.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_phone.xml"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back_arrow.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_back_arrow.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mayor_elections.xml.flat",
@@ -96,6 +108,10 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_squid1.jpg.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\squid1.jpg"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_help.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_help.png"
     },
@@ -118,6 +134,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_squid_round.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\squid_round.xml"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_mayor_votes.xml.flat",
@@ -148,6 +168,10 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_email.xml"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid_foreground.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -160,6 +184,10 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\osr.ttf"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid_round.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
@@ -170,6 +198,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chairman.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\chairman.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_icon.png.flat",
@@ -220,6 +252,14 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid_foreground.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid_foreground.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -264,6 +304,10 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\title_sure_background.xml"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_settingsicon.xml.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\settingsicon.xml"
     },
@@ -290,6 +334,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_phone.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_phone.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid_round.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_results_design.xml.flat",
@@ -384,8 +432,16 @@
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid_round.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chart_icon.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\chart_icon.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_chart_icon.xml.flat",
@@ -444,6 +500,10 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\settingsicon.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid_round.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_password.xml.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_password.xml"
     },
@@ -480,6 +540,14 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_password.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid_round.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_squid.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\squid.xml"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_city_votes.xml.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_city_votes.xml"
     },
@@ -502,6 +570,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back_arrow.png.flat",
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_back_arrow.png"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid_foreground.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\menu_burger_res.xml.flat",

@@ -47,6 +47,7 @@
                      android:id="@+id/profile_id"
                      android:title="Profile"
                      android:icon="@drawable/chairman"/>
+
             </group>
          </menu>
 
@@ -69,18 +70,7 @@
         </menu>
     </item>
 
-    <item android:title="Settings">
 
-        <menu>
-            <group android:checkableBehavior="all">
-                <item
-                    android:id="@+id/settingsBtn"
-                    android:title="Settings"
-                    android:icon="@drawable/settingsicon"/>
-
-            </group>
-        </menu>
-    </item>
 
 
 </menu>

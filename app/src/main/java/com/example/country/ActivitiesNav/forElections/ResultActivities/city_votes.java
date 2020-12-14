@@ -131,46 +131,46 @@ public class city_votes extends AppCompatActivity {
                                     TextView winnersCount = (TextView)findViewById(R.id.TextWinnersCount);
                                     if(sum < 1000 && counter >=12)
                                     {
-                                        winnersCount.setText("First 12 are winners");
+                                        winnersCount.setText("12 are winners");
                                     }
                                     else if((sum >=1000) && (sum < 3000) && counter >=14)
                                     {
-                                        winnersCount.setText("first 14 are winners");
+                                        winnersCount.setText("14 are winners");
                                     }
                                     else if(sum > 3000 && sum <5000  && counter >=22)
                                     {
-                                        winnersCount.setText("first 22 are winners");
+                                        winnersCount.setText("22 are winners");
                                     }
                                     else if(sum > 5000 && sum< 20000 && counter >=26)
                                     {
-                                        winnersCount.setText("first 26 are winners");
+                                        winnersCount.setText("26 are winners");
                                     }
                                     else if(sum > 20000 && sum < 50000 && counter >=34)
                                     {
-                                        winnersCount.setText("first 34 are winners");
+                                        winnersCount.setText("34 are winners");
                                     }
                                     else if(sum > 50000 && sum < 100000 && counter >=36)
                                     {
-                                        winnersCount.setText("first 36 are winners");
+                                        winnersCount.setText("36 are winners");
                                     }else if(sum > 100000 && sum < 250000 && counter >=42)
                                     {
-                                        winnersCount.setText("first 42 are winners");
+                                        winnersCount.setText("42 are winners");
                                     }
                                     else if(sum > 250000 && sum < 500000 && counter >=54)
                                     {
-                                        winnersCount.setText("first 54 are winners");
+                                        winnersCount.setText("54 are winners");
                                     }
                                     else if(sum > 500000 && sum < 1000000 && counter >=64)
                                     {
-                                        winnersCount.setText("first 64 are winners");
+                                        winnersCount.setText("64 are winners");
                                     }
                                     else if(sum > 1000000 && sum < 2000000 && counter >=84)
                                     {
-                                        winnersCount.setText("first 84 are winners");
+                                        winnersCount.setText("84 are winners");
                                     }
                                     else if(sum > 2000000 && counter >=120)
                                     {
-                                        winnersCount.setText("first 120 are winners");
+                                        winnersCount.setText("120 are winners");
                                     }
 
                                 }

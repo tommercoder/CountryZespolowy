@@ -1366,6 +1366,7 @@ drawable results_design
 drawable selector_expand
 drawable settingsicon
 drawable shape_pass_change
+drawable squid1
 drawable title_sure_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1598,7 +1599,6 @@ id imageViewMain2
 id imageViewMain3
 id imageViewMain4
 id imageViewMain5
-id imageViewMain6
 id img1
 id img2
 id img3
@@ -1738,7 +1738,6 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
-id settingsBtn
 id shortcut
 id showCustom
 id showHome
@@ -1800,7 +1799,6 @@ id textViewMain2
 id textViewMain3
 id textViewMain4
 id textViewMain5
-id textViewMain6
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1965,6 +1963,9 @@ layout verdesign
 menu burger_res
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap squid
+mipmap squid_foreground
+mipmap squid_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

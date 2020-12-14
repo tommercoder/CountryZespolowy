@@ -25,6 +25,7 @@
             android:fontFamily="@font/bgb"
             android:padding="8dp"
             android:text="Feedback"
+            android:textColor="@color/resGradStart"
             android:textAllCaps="true"
             android:textSize="36sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +84,9 @@
                 android:fontFamily="@font/baloo"
                 android:padding="20dp"
                 android:text="Asking about app or voting: +380 980 707 638"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
+                android:textColor="@color/startgrad"
+
                 android:textSize="20sp" />
 
             <ImageView

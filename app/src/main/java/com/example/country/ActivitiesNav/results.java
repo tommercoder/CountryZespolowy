@@ -465,7 +465,7 @@ public class results extends AppCompatActivity {
                                 sum += votesList.get(i);
                             }
                             double result = (maxVote + 1) / (double) sum;
-                            int percentage = 51;//(int)(result*100.0f);//51 set
+                            int percentage = (int)(result*100.0f);//51 set
 
                             Log.d("all votes", "=" + sum);
                             Log.d("max vote", "=" + maxVote);
@@ -479,6 +479,7 @@ public class results extends AppCompatActivity {
                                     sameMax = true;
                                 }
                             }
+
                             if (percentage < 50) {
                                 ifSecondRound = true;
                             }

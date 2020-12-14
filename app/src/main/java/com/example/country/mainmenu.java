@@ -64,7 +64,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         btn3 = findViewById(R.id.textViewMain3);
         btn4 = findViewById(R.id.textViewMain4);
         btn5 = findViewById(R.id.textViewMain5);
-        btn6 = findViewById(R.id.textViewMain6);
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,12 +96,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(new Intent(getApplicationContext(), email.class));
             }
         });
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), s.class));
-            }
-        });
+      
 
         ////
         //calendarView = findViewById(R.id.compactcalendar_view);
@@ -210,9 +205,6 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 break;
             case R.id.profile_id:
                 startActivity(new Intent(mainmenu.this, profile_act.class));
-                break;
-            case R.id.settingsBtn:
-
                 break;
             case R.id.results_id:
                 startActivity(new Intent(mainmenu.this, results.class));

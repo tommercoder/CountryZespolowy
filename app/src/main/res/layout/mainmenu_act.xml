@@ -187,14 +187,14 @@
 
                     <TextView
                         android:id="@+id/textViewMain3"
-                        android:layout_width="126dp"
+                        android:layout_width="136dp"
                         android:layout_height="48dp"
                         android:layout_alignParentBottom="true"
                         android:layout_marginStart="120dp"
                         android:layout_marginBottom="19dp"
                         android:fontFamily="@font/bgb"
                         android:padding="8dp"
-                        android:text="My Profil"
+                        android:text="My Profile"
                         android:textAllCaps="true"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -207,7 +207,7 @@
                         android:layout_height="70dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        app:srcCompat="@drawable/profile_icon" />
+                        app:srcCompat="@drawable/squid1" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -288,45 +288,10 @@
                         tools:ignore="VectorDrawableCompat" />
                 </RelativeLayout>
 
-                <RelativeLayout
-
-                    android:layout_width="match_parent"
-                    android:layout_height="85dp"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="24dp"
-                    android:background="@drawable/background_border_choosing_el"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView12">
-
-                    <TextView
-                        android:id="@+id/textViewMain6"
-                        android:layout_width="126dp"
-                        android:layout_height="48dp"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginStart="120dp"
-                        android:layout_marginBottom="19dp"
-                        android:fontFamily="@font/bgb"
-                        android:padding="8dp"
-                        android:text="setings"
-                        android:textAllCaps="true"
-                        android:textSize="20sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        tools:ignore="DuplicateIds,MissingConstraints"
-                        tools:layout_editor_absoluteY="-2dp" />
-
-                    <ImageView
-                        android:id="@+id/imageViewMain6"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        app:srcCompat="@drawable/emailus_icon"
-                        tools:ignore="VectorDrawableCompat" />
-
-                </RelativeLayout>
+<RelativeLayout
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
