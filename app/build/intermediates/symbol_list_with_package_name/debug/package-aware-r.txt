@@ -1328,6 +1328,7 @@ drawable homechoices_icon
 drawable ic_back_arrow
 drawable ic_circle
 drawable ic_city
+drawable ic_help
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1364,6 +1365,7 @@ drawable referendum_icon
 drawable results_design
 drawable selector_expand
 drawable settingsicon
+drawable shape_pass_change
 drawable title_sure_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1589,17 +1591,14 @@ id imageView
 id imageView10
 id imageView2
 id imageView3
-<<<<<<< HEAD
+id imageView5
+id imageView6
 id imageViewMain1
 id imageViewMain2
 id imageViewMain3
 id imageViewMain4
 id imageViewMain5
 id imageViewMain6
-=======
-id imageView5
-id imageView6
->>>>>>> origin/max_profile
 id img1
 id img2
 id img3

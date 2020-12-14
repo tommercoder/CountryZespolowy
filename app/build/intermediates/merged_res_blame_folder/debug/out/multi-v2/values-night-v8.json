@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "D:\\CountryZespolowy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endLines": "12",
-                        "endColumns": "12",
-                        "endOffsets": "571"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "570"
-                    }
-                },
-                {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Serhii Tomashevskyi\\.gradle\\caches\\transforms-2\\files-2.1\\5a0a5d253b938e8a0386b39b912ab5cf\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -37,6 +18,25 @@
                         "startOffsets": "575,645,729,813,909,1011,1113,1207",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "640,724,808,904,1006,1108,1202,1291"
+                    }
+                },
+                {
+                    "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "583"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "570"
                     }
                 }
             ]

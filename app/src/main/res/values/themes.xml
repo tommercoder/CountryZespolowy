@@ -16,6 +16,8 @@
     <style name="AppTheme.PopMe">
          <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@drawable/shape_pass_change</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">
