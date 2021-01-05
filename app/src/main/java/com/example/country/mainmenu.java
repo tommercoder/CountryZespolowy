@@ -1,5 +1,10 @@
 package com.example.country;
 
+import android.content.DialogInterface;
+import android.support.v4.app.RemoteActionCompatParcelizer;
+import android.os.Bundle;
+import android.view.View;
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -15,10 +20,12 @@ import android.widget.Toast;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.concurrent.atomic.DoubleAccumulator;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -27,6 +34,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.example.country.ActivitiesNav.election_act;
 import com.example.country.ActivitiesNav.profile_act;
 import com.example.country.ActivitiesNav.results;
+import com.example.country.ActivitiesNav.forElections.mayor_elections;
+import com.example.country.ActivitiesNav.forElections.city_elections;
+import com.example.country.ActivitiesNav.forElections.president_election;
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.github.sundeepk.compactcalendarview.domain.Event;
 import com.google.android.material.navigation.NavigationView;
@@ -48,8 +58,6 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
     CompactCalendarView compactCalendar;
 
-
-
     private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM- yyyy", Locale.getDefault());
 
     @Override
@@ -57,14 +65,12 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainmenu_act);
-        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//phone up bar off
 
         btn1 = findViewById(R.id.textViewMain1);
         btn2 = findViewById(R.id.textViewMain2);
         btn3 = findViewById(R.id.textViewMain3);
         btn4 = findViewById(R.id.textViewMain4);
         btn5 = findViewById(R.id.textViewMain5);
-
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,10 +102,6 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(new Intent(getApplicationContext(), email.class));
             }
         });
-      
-
-        ////
-        //calendarView = findViewById(R.id.compactcalendar_view);
 
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.nav_view);
@@ -115,11 +117,6 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         navigationView.setNavigationItemSelectedListener(this);//clickable buttons
         navigationView.setCheckedItem(R.id.home_id);
 
-        /// //////////////////////////
-  /*      Date date1 = new Date(120, 12, 15);
-        ;
-        calendarView.addEvent(date1);
-*/
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(false);
         actionBar.setTitle(null);
@@ -127,14 +124,11 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         compactCalendar = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         compactCalendar.setUseThreeLetterAbbreviation(true);
 
-
-        //Set an event for Teachers' Professional Day 2016 which is 21st of October
-
         final Date date1 = new Date(2021,12,9);
         //Event ev1 = new Event(Color.RED, date1.getTime(),"text1");
-        final Event ev1 = new Event(Color.RED, 1608046248000L, "President");
-        final Event ev2 = new Event(Color.BLUE, 1607472000000L, "Mayor");
-        final Event ev3 = new Event(Color.GREEN, 1608482292000L, "City Elections");
+        final Event ev1 = new Event(Color.RED, 1611356400000L, "President");
+        final Event ev2 = new Event(Color.BLUE, 1609974000000L, "Mayor");
+        final Event ev3 = new Event(Color.GREEN, 1610233200000L, "City Elections");
 
         compactCalendar.addEvent(ev1);
         compactCalendar.addEvent(ev2);
@@ -145,15 +139,15 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
             public void onDayClick(Date dateClicked) {
                 Context context = getApplicationContext();
 
-                   /*if(dateClicked.getTime() == date1.getTime())
-                        Toast.makeText(context, "Less then this day", Toast.LENGTH_SHORT).show();
-                    if (dateClicked.equals(date1)) {
-                        Toast.makeText(context, "Teachers' Professional Day", Toast.LENGTH_SHORT).show();
-                    } else if(dateClicked.compareTo(date1) == 1) {
-                        Toast.makeText(context, "more then this day", Toast.LENGTH_SHORT).show();
-                    }
-                    else
-                        Toast.makeText(context, "Less then this day", Toast.LENGTH_SHORT).show();*/
+                if(dateClicked.getTime() == ev1.getTimeInMillis()){
+                    openDialog("City Election",1);
+                }
+                if(dateClicked.getTime() == ev2.getTimeInMillis()){
+                    openDialog("Mayor Election",2);
+                }
+                if(dateClicked.getTime() == ev3.getTimeInMillis()){
+                    openDialog("President Election",3);
+                }
             }
 
             @Override
@@ -163,6 +157,37 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         });
 
     }
+
+    private void openDialog(String message, final int num) {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(mainmenu.this);
+        builder.setTitle("Do you want to go to the "+ message + "?");
+        builder.setPositiveButton("Go", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (num){
+                    case 1:
+                        startActivity(new Intent(getApplicationContext(), city_elections.class));
+                        break;
+                    case 2:
+                        startActivity(new Intent(getApplicationContext(), mayor_elections.class));
+                        break;
+                    case 3:
+                        startActivity(new Intent(getApplicationContext(), president_election.class));
+                        break;
+
+                }
+
+            }
+        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
     public void openRegistrationPage () {
 
         Intent intent = new Intent(mainmenu.this, election_act.class);
