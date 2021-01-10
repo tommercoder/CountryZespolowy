@@ -1,4 +1,4 @@
-#Sun Jan 10 13:26:33 CET 2021
+#Sun Jan 10 14:02:02 CET 2021
 base.0=/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
