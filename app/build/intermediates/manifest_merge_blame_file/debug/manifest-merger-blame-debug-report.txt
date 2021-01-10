@@ -220,27 +220,27 @@
 114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 114-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
 115        <activity
-115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
 116            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
 117            android:excludeFromRecents="true"
-117-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+117-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
 118            android:exported="false"
-118-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+118-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
 119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-119-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+119-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
 120        <!--
 121            Service handling Google Sign-In user revocation. For apps that do not integrate with
 122            Google Sign-In, this service will never be started.
 123        -->
 124        <service
-124-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+124-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
 125            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-125-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+125-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
 126            android:exported="true"
-126-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+126-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
 127            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-127-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+127-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
 128
 129        <activity
 129-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75

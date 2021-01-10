@@ -1,8 +1,11 @@
-com/example/country/ActivitiesNav/forElections/ResultActivities/city_votes.java
- com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes
- com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1
- com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1$1
- com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1$1$1
+com/example/country/mainmenu.java
+ com.example.country.mainmenu
+ com.example.country.mainmenu$1
+ com.example.country.mainmenu$2
+ com.example.country.mainmenu$3
+ com.example.country.mainmenu$4
+ com.example.country.mainmenu$5
+ com.example.country.mainmenu$6
 com/example/country/ActivitiesNav/forElections/myadapterVer.java
  com.example.country.ActivitiesNav.forElections.myadapterVer
  com.example.country.ActivitiesNav.forElections.myadapterVer$1
@@ -46,9 +49,19 @@ com/example/country/ActivitiesNav/election_act.java
  com.example.country.ActivitiesNav.election_act$3
  com.example.country.ActivitiesNav.election_act$4
  com.example.country.ActivitiesNav.election_act$5
-com/example/country/phone.java
- com.example.country.phone
- com.example.country.phone$1
+com/example/country/ActivitiesNav/results.java
+ com.example.country.ActivitiesNav.results
+ com.example.country.ActivitiesNav.results$1
+ com.example.country.ActivitiesNav.results$2
+ com.example.country.ActivitiesNav.results$3
+ com.example.country.ActivitiesNav.results$4
+ com.example.country.ActivitiesNav.results$5
+ com.example.country.ActivitiesNav.results$5$1
+ com.example.country.ActivitiesNav.results$6
+ com.example.country.ActivitiesNav.results$6$1
+ com.example.country.ActivitiesNav.results$7
+ com.example.country.ActivitiesNav.results$7$1
+ com.example.country.ActivitiesNav.results$8
 com/example/country/ActivitiesNav/forElections/ResultActivities/all_president_votes.java
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_president_votes
 com/example/country/ActivitiesNav/forElections/VerkhovnaRadaElection.java
@@ -70,12 +83,11 @@ com/example/country/ActivitiesNav/forElections/myadapterPresident.java
  com.example.country.ActivitiesNav.forElections.myadapterPresident$1$1$1$2
  com.example.country.ActivitiesNav.forElections.myadapterPresident$myviewholder
  com.example.country.ActivitiesNav.forElections.myadapterPresident$myviewholder$1
-com/example/country/MainActivity.java
- com.example.country.MainActivity
- com.example.country.MainActivity$1
- com.example.country.MainActivity$2
- com.example.country.MainActivity$3
- com.example.country.MainActivity$4
+com/example/country/ActivitiesNav/forElections/ResultActivities/city_votes.java
+ com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes
+ com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1
+ com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1$1
+ com.example.country.ActivitiesNav.forElections.ResultActivities.city_votes$1$1$1
 com/example/country/ActivitiesNav/forElections/ResultActivities/all_mayor_votes.java
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_mayor_votes
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_mayor_votes$1
@@ -128,24 +140,12 @@ com/example/country/ActivitiesNav/forElections/mayor_elections.java
  com.example.country.ActivitiesNav.forElections.mayor_elections
  com.example.country.ActivitiesNav.forElections.mayor_elections$1
  com.example.country.ActivitiesNav.forElections.mayor_elections$1$1
-com/example/country/mainmenu.java
- com.example.country.mainmenu
- com.example.country.mainmenu$1
- com.example.country.mainmenu$2
- com.example.country.mainmenu$3
- com.example.country.mainmenu$4
- com.example.country.mainmenu$5
- com.example.country.mainmenu$6
-com/example/country/ActivitiesNav/results.java
- com.example.country.ActivitiesNav.results
- com.example.country.ActivitiesNav.results$1
- com.example.country.ActivitiesNav.results$2
- com.example.country.ActivitiesNav.results$3
- com.example.country.ActivitiesNav.results$4
- com.example.country.ActivitiesNav.results$5
- com.example.country.ActivitiesNav.results$5$1
- com.example.country.ActivitiesNav.results$6
- com.example.country.ActivitiesNav.results$6$1
- com.example.country.ActivitiesNav.results$7
- com.example.country.ActivitiesNav.results$7$1
- com.example.country.ActivitiesNav.results$8
+com/example/country/phone.java
+ com.example.country.phone
+ com.example.country.phone$1
+com/example/country/MainActivity.java
+ com.example.country.MainActivity
+ com.example.country.MainActivity$1
+ com.example.country.MainActivity$2
+ com.example.country.MainActivity$3
+ com.example.country.MainActivity$4

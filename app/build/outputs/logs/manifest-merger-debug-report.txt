@@ -7,9 +7,9 @@ INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dffa45e3c096cf56c49a7f84546b6399\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\ad6d79dcf8b43fd16c2f73f8f3bda48a\navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\d50cd6b26a7e2f39fca2f5b691d3f8e5\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3c2176af5424284801cc9e9e139893bc\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\b2a037de872506b774915daeab566c49\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\979ea12d849ced155c67a9ca37c00448\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dd4ba36f6332a41d58236c8817f5cfd8\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -24,11 +24,11 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Serhii Tomashe
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\7cc63005c537a7d7a62510e40e27ab2e\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:17:1-42:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3f5dbd1c036302a3f745ec360ebf5285\jetified-play-services-drive-16.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\70c5a5b2af0432c185f8df319907a525\jetified-play-services-drive-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\826744e9eb3bffeafa4b9b2fe42f8fee\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a0ac6469a4aa14522102e96d005a63ba\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3d110af37dbaba6a85e6b7189240fba7\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\e2dd78bb7699a9a6f5db708912980c65\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dd2b390f0bf89e753b1cce6e083d7969\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cad16d658ddb8c9d27e418ba1c9cf01c\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:17:1-36:12
@@ -82,7 +82,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Serhii Tomashevs
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0c72ad55ead990bd78e6f051ff702c07\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a927cb788b300023746251a8b9416eb7\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\1d79cfc5e88ec5eebe84d6db639c26b6\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\135c53eb9177d687b3ff8277f0900f7f\jetified-android-intent-1.0.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\fb30154ba593b01ce75b4af83d5d49f4\jetified-android-intent-1.0.3\AndroidManifest.xml:2:1-11:12
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml:2:1-77:12
@@ -152,8 +152,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii T
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dffa45e3c096cf56c49a7f84546b6399\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\b2a037de872506b774915daeab566c49\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\b2a037de872506b774915daeab566c49\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
@@ -166,10 +166,10 @@ MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevs
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3f5dbd1c036302a3f745ec360ebf5285\jetified-play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3f5dbd1c036302a3f745ec360ebf5285\jetified-play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\70c5a5b2af0432c185f8df319907a525\jetified-play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\70c5a5b2af0432c185f8df319907a525\jetified-play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
@@ -350,12 +350,12 @@ MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Serhii Tomashevsk
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\ad6d79dcf8b43fd16c2f73f8f3bda48a\navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3293023e6f8dbf0c423e5f7628fd7506\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\d50cd6b26a7e2f39fca2f5b691d3f8e5\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\d50cd6b26a7e2f39fca2f5b691d3f8e5\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\2ccd0ceb3246c89bc08dc095885fa7bd\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a89672e873085d836a108730a6b6f92e\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3c2176af5424284801cc9e9e139893bc\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3c2176af5424284801cc9e9e139893bc\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\b2a037de872506b774915daeab566c49\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\b2a037de872506b774915daeab566c49\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\979ea12d849ced155c67a9ca37c00448\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\979ea12d849ced155c67a9ca37c00448\jetified-compact-calendar-view-3.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\5a0a5d253b938e8a0386b39b912ab5cf\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\25929f085df2d72177f34897ea32a79f\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:5:5-44
@@ -384,16 +384,16 @@ MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevs
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:21:5-44
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3f5dbd1c036302a3f745ec360ebf5285\jetified-play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3f5dbd1c036302a3f745ec360ebf5285\jetified-play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\70c5a5b2af0432c185f8df319907a525\jetified-play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\70c5a5b2af0432c185f8df319907a525\jetified-play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\826744e9eb3bffeafa4b9b2fe42f8fee\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\826744e9eb3bffeafa4b9b2fe42f8fee\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a0ac6469a4aa14522102e96d005a63ba\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a0ac6469a4aa14522102e96d005a63ba\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3d110af37dbaba6a85e6b7189240fba7\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\3d110af37dbaba6a85e6b7189240fba7\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\e2dd78bb7699a9a6f5db708912980c65\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\e2dd78bb7699a9a6f5db708912980c65\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dd2b390f0bf89e753b1cce6e083d7969\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\dd2b390f0bf89e753b1cce6e083d7969\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
@@ -500,8 +500,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a927cb788b300023746251a8b9416eb7\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\1d79cfc5e88ec5eebe84d6db639c26b6\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\1d79cfc5e88ec5eebe84d6db639c26b6\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\135c53eb9177d687b3ff8277f0900f7f\jetified-android-intent-1.0.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\135c53eb9177d687b3ff8277f0900f7f\jetified-android-intent-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\fb30154ba593b01ce75b4af83d5d49f4\jetified-android-intent-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.evernote:android-intent:1.0.3] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\fb30154ba593b01ce75b4af83d5d49f4\jetified-android-intent-1.0.3\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 INJECTED from D:\CountryZespolowy\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -567,23 +567,23 @@ ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevsk
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\0414f9d8497abe6467d475f1faa2c4b7\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\9ce12b36eec235c67186eef2fd67d0cd\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Serhii Tomashevskyi\.gradle\caches\transforms-2\files-2.1\a8235920046dd925bdec8b6748f129a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported
