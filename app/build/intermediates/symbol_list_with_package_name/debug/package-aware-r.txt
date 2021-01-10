@@ -1295,6 +1295,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable burger_btn
 drawable button_back_background
 drawable button_sure_background
+drawable calendar_r
 drawable callus_icon
 drawable chairman
 drawable chart_icon

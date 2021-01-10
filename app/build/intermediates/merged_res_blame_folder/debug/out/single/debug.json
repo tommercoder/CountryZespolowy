@@ -4,12 +4,12 @@
         "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/layout/activity_city_votes.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_squid.png.flat",
-        "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/mipmap-hdpi/squid.png"
-    },
-    {
         "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_squid.png.flat",
         "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/squid.png"
+    },
+    {
+        "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_squid.png.flat",
+        "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/mipmap-hdpi/squid.png"
     },
     {
         "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_phone.png.flat",
@@ -458,6 +458,10 @@
     {
         "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_sure_window.xml.flat",
         "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/layout/sure_window.xml"
+    },
+    {
+        "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_calendar_r.png.flat",
+        "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/drawable-v24/calendar_r.png"
     },
     {
         "merged": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_phone.png.flat",

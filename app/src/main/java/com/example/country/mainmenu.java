@@ -229,7 +229,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(new Intent(mainmenu.this, email.class));
                 break;
             case R.id.profile_id:
-                startActivity(new Intent(mainmenu.this, Intro.class));
+                startActivity(new Intent(mainmenu.this, profile_act.class));
                 break;
             case R.id.help_id:
                 startActivity(new Intent(mainmenu.this, Intro.class));

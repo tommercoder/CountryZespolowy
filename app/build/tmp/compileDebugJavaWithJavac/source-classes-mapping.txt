@@ -1,13 +1,7 @@
-com/example/country/ActivitiesNav/forElections/myadapter.java
- com.example.country.ActivitiesNav.forElections.myadapter
- com.example.country.ActivitiesNav.forElections.myadapter$1
- com.example.country.ActivitiesNav.forElections.myadapter$1$1
- com.example.country.ActivitiesNav.forElections.myadapter$1$1$1
- com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1
- com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1$1
- com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1$2
- com.example.country.ActivitiesNav.forElections.myadapter$myviewholder
- com.example.country.ActivitiesNav.forElections.myadapter$myviewholder$1
+com/example/country/ActivitiesNav/forElections/mayor_elections.java
+ com.example.country.ActivitiesNav.forElections.mayor_elections
+ com.example.country.ActivitiesNav.forElections.mayor_elections$1
+ com.example.country.ActivitiesNav.forElections.mayor_elections$1$1
 com/example/country/ActivitiesNav/forElections/myadapterVer.java
  com.example.country.ActivitiesNav.forElections.myadapterVer
  com.example.country.ActivitiesNav.forElections.myadapterVer$1
@@ -32,10 +26,12 @@ com/example/country/ActivitiesNav/forElections/city_elections.java
  com.example.country.ActivitiesNav.forElections.city_elections
  com.example.country.ActivitiesNav.forElections.city_elections$1
  com.example.country.ActivitiesNav.forElections.city_elections$1$1
-com/example/country/ActivitiesNav/forElections/mayor_elections.java
- com.example.country.ActivitiesNav.forElections.mayor_elections
- com.example.country.ActivitiesNav.forElections.mayor_elections$1
- com.example.country.ActivitiesNav.forElections.mayor_elections$1$1
+com/example/country/MainActivity.java
+ com.example.country.MainActivity
+ com.example.country.MainActivity$1
+ com.example.country.MainActivity$2
+ com.example.country.MainActivity$3
+ com.example.country.MainActivity$4
 com/example/country/ActivitiesNav/forElections/president_election.java
  com.example.country.ActivitiesNav.forElections.president_election
 com/example/country/ActivitiesNav/election_act.java
@@ -125,6 +121,16 @@ com/example/country/ActivitiesNav/update_pass_profile.java
  com.example.country.ActivitiesNav.update_pass_profile$1$1
  com.example.country.ActivitiesNav.update_pass_profile$1$1$1
  com.example.country.ActivitiesNav.update_pass_profile$1$1$1$1
+com/example/country/ActivitiesNav/forElections/myadapter.java
+ com.example.country.ActivitiesNav.forElections.myadapter
+ com.example.country.ActivitiesNav.forElections.myadapter$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1$1
+ com.example.country.ActivitiesNav.forElections.myadapter$1$1$1$1$2
+ com.example.country.ActivitiesNav.forElections.myadapter$myviewholder
+ com.example.country.ActivitiesNav.forElections.myadapter$myviewholder$1
 com/example/country/mainmenu.java
  com.example.country.mainmenu
  com.example.country.mainmenu$1
@@ -147,9 +153,3 @@ com/example/country/register_window.java
  com.example.country.register_window$2$1$1$1$3
 com/example/country/Intro.java
  com.example.country.Intro
-com/example/country/MainActivity.java
- com.example.country.MainActivity
- com.example.country.MainActivity$1
- com.example.country.MainActivity$2
- com.example.country.MainActivity$3
- com.example.country.MainActivity$4
