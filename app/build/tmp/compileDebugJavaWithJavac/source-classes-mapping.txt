@@ -66,6 +66,8 @@ com/example/country/ActivitiesNav/results.java
  com.example.country.ActivitiesNav.results$8
 com/example/country/ActivitiesNav/forElections/ResultActivities/all_president_votes.java
  com.example.country.ActivitiesNav.forElections.ResultActivities.all_president_votes
+com/example/country/Intro.java
+ com.example.country.Intro
 com/example/country/ActivitiesNav/forElections/VerkhovnaRadaElection.java
  com.example.country.ActivitiesNav.forElections.VerkhovnaRadaElection
 com/example/country/ActivitiesNav/forElections/adapterAllpresidents.java

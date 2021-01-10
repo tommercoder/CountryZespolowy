@@ -29,6 +29,7 @@
         <activity
             android:name=".ActivitiesNav.update_pass_profile"
             android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".Intro"/>
         <activity
             android:name=".ActivitiesNav.edit_profile_act"
             android:parentActivityName=".ActivitiesNav.profile_act" />

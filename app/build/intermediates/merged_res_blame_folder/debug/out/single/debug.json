@@ -72,6 +72,10 @@
         "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_back_arrow.png"
     },
     {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_calendar_r.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\calendar_r.png"
+    },
+    {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid.png.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid.png"
     },
@@ -578,6 +582,10 @@
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\menu_burger_res.xml.flat",
         "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\menu\\burger_res.xml"
+    },
+    {
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hello.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\hello.png"
     },
     {
         "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verkhovna_rada_election.xml.flat",

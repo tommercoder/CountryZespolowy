@@ -241,6 +241,9 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
             case R.id.results_id:
                 startActivity(new Intent(mainmenu.this, results.class));
                 break;
+            case R.id.help_id:
+                startActivity(new Intent(mainmenu.this,Intro.class));
+                break;
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);//after pressing closing the drawer
