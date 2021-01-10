@@ -30,16 +30,9 @@ com/example/country/ActivitiesNav/forElections/city_elections.java
  com.example.country.ActivitiesNav.forElections.city_elections
  com.example.country.ActivitiesNav.forElections.city_elections$1
  com.example.country.ActivitiesNav.forElections.city_elections$1$1
-com/example/country/register_window.java
- com.example.country.register_window
- com.example.country.register_window$1
- com.example.country.register_window$2
- com.example.country.register_window$2$1
- com.example.country.register_window$2$1$1
- com.example.country.register_window$2$1$1$1
- com.example.country.register_window$2$1$1$1$1
- com.example.country.register_window$2$1$1$1$2
- com.example.country.register_window$2$1$1$1$3
+com/example/country/phone.java
+ com.example.country.phone
+ com.example.country.phone$1
 com/example/country/ActivitiesNav/forElections/president_election.java
  com.example.country.ActivitiesNav.forElections.president_election
 com/example/country/ActivitiesNav/election_act.java
