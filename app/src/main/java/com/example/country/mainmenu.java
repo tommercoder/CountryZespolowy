@@ -127,7 +127,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
         final Date date1 = new Date(2021,12,9);
         //Event ev1 = new Event(Color.RED, date1.getTime(),"text1");
-        final Event ev1 = new Event(Color.RED, 1610236800000L, "President");
+        final Event ev1 = new Event(Color.RED, 1611356400000L, "President");
         final Event ev2 = new Event(Color.BLUE, 1609974000000L, "Mayor");
         final Event ev3 = new Event(Color.GREEN, 1610233200000L, "City Elections");
 
