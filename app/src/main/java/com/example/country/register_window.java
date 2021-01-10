@@ -196,7 +196,7 @@ public class register_window extends AppCompatActivity {
                                                                             public void onSuccess(AuthResult authResult) {
                                                                                 Toast.makeText(register_window.this, "Login Succesful", Toast.LENGTH_SHORT).show();
 
-                                                                                startActivity(new Intent(register_window.this, mainmenu.class));
+                                                                                startActivity(new Intent(register_window.this, Intro.class));
                                                                                 progressBar.setVisibility(View.INVISIBLE);
                                                                                 finish();
                                                                             }

@@ -14,9 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".ActivitiesNav.forElections.ResultActivities.city_votes"
-            android:parentActivityName=".ActivitiesNav.results"
-            ></activity>
+        <activity android:name=".Intro"></activity>
+        <activity
+            android:name=".ActivitiesNav.forElections.ResultActivities.city_votes"
+            android:parentActivityName=".ActivitiesNav.results" />
         <activity
             android:name=".ActivitiesNav.forElections.ResultActivities.all_mayor_votes"
             android:parentActivityName=".ActivitiesNav.results" />

@@ -42,6 +42,10 @@
                      android:id="@+id/profile_id"
                      android:title="Profile"
                      android:icon="@drawable/chairman"/>
+                 <item
+                     android:id="@+id/help_id"
+                     android:icon="@drawable/ic_help"
+                     android:title="Help" />
             </group>
          </menu>
 

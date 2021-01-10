@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/admin/AndroidStudioProjects/CountryZespolowy/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/golem/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/5a0a5d253b938e8a0386b39b912ab5cf/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
