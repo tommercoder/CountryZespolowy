@@ -3,6 +3,7 @@ package com.example.country;
 import android.content.DialogInterface;
 import android.support.v4.app.RemoteActionCompatParcelizer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import android.content.Context;
@@ -59,7 +60,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
     CompactCalendarView compactCalendar;
 
     private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM- yyyy", Locale.getDefault());
-
+//final SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM, yyyy", new Locale("uk","UA"));
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -126,7 +127,7 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
 
         final Date date1 = new Date(2021,12,9);
         //Event ev1 = new Event(Color.RED, date1.getTime(),"text1");
-        final Event ev1 = new Event(Color.RED, 1611356400000L, "President");
+        final Event ev1 = new Event(Color.RED, 1610236800000L, "President");
         final Event ev2 = new Event(Color.BLUE, 1609974000000L, "Mayor");
         final Event ev3 = new Event(Color.GREEN, 1610233200000L, "City Elections");
 
@@ -137,17 +138,23 @@ public class mainmenu extends AppCompatActivity implements NavigationView.OnNavi
         compactCalendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
             public void onDayClick(Date dateClicked) {
+
                 Context context = getApplicationContext();
+
 
                 if(dateClicked.getTime() == ev1.getTimeInMillis()){
                     openDialog("City Election",1);
+                    Toast.makeText(mainmenu.this,"if 1",Toast.LENGTH_SHORT).show();
                 }
                 if(dateClicked.getTime() == ev2.getTimeInMillis()){
                     openDialog("Mayor Election",2);
+                    Toast.makeText(mainmenu.this,"if 2",Toast.LENGTH_SHORT).show();
                 }
                 if(dateClicked.getTime() == ev3.getTimeInMillis()){
                     openDialog("President Election",3);
+                    Toast.makeText(mainmenu.this,"if 3",Toast.LENGTH_SHORT).show();
                 }
+
             }
 
             @Override

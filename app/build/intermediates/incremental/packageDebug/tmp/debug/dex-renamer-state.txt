@@ -1,4 +1,7 @@
-#Tue Jan 05 23:46:47 CET 2021
-base.0=/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Jan 10 14:14:29 EET 2021
+base.0=D\:\\home\\golem\\Рабочий стол\\Android\\PrZespolowy4\\CountryZespolowy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=D\:\\CountryZespolowy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex

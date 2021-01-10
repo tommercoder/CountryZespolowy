@@ -1,662 +1,662 @@
 [
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_verdesign.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\verdesign.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_squid_round.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-anydpi-v26/squid_round.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_emailus_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\emailus_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_act.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_edit_profile_act.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_ic_circle.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/ic_circle.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_president_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_president_votes.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_squid_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/squid_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_back_arrow.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_back_arrow.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_pass_change.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\shape_pass_change.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_profile_act.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_profile_act.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid_foreground.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_basic.ttf.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/basic.ttf"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_action_bar.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\action_bar.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_help.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_help.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\menu-v26_burger_res.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\menu-v26\\burger_res.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_back_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/back_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_phone.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_phone.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/menu_burger_res.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/menu/burger_res.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mayor_elections.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_mayor_elections.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_homechoices_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\homechoices_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_vote_logo.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/vote_logo.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_baloo.ttf.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\baloo.ttf"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_squid_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxxhdpi/squid_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_email.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_email.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_email.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_email.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_squid1.jpg.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\squid1.jpg"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_president_election.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_president_election.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_title_sure_background.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/title_sure_background.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pop_bg.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\pop_bg.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_settingsicon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/settingsicon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_squid_round.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\squid_round.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_dialog_background.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/dialog_background.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_mayor_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_mayor_votes.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_main.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_burger_btn.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\burger_btn.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_burger_btn.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/burger_btn.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_all_ver_votes.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_all_ver_votes.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_expandmore_btn.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/expandmore_btn.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_border_choosing_el.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\background_border_choosing_el.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_osr.ttf.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/osr.ttf"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_email.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_email.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid_foreground.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_city_votes.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_city_votes.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_phone.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_phone.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_back_background.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\button_back_background.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_squid_foreground.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-hdpi/squid_foreground.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_osr.ttf.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\osr.ttf"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_button_back_background.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/button_back_background.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_sure_window.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/sure_window.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_fonts.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\fonts.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chairman.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\chairman.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_callus_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/callus_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_update_pass_profile.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_update_pass_profile.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_squid.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/squid.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_callus_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\callus_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_baloo.ttf.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/baloo.ttf"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_all_mayor_votes.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_all_mayor_votes.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_election_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/election_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dialog_background.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\dialog_background.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-mdpi_squid.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-mdpi/squid.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_squid_foreground.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxxhdpi/squid_foreground.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_background_shape.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\profile_background_shape.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_header.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/header.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\squid_foreground.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid_foreground.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_profile_background_shape.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/profile_background_shape.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_home_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\home_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_squid.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-anydpi-v26/squid.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-mdpi_squid_foreground.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-mdpi/squid_foreground.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_election_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\election_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_squid1.jpg.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/squid1.jpg"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_results_design.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/results_design.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_referendum_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\referendum_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_action_bar.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/action_bar.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_results.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_results.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_fonts.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/fonts.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_city_elections.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_city_elections.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_squid_foreground.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xhdpi/squid_foreground.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_title_sure_background.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\title_sure_background.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_all_president_votes.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_all_president_votes.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_squid.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-hdpi/squid.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_settingsicon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\settingsicon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_pass_profile.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_update_pass_profile.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_mayor_elections.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_mayor_elections.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_border.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\background_border.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_election.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\election.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_homechoices_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/homechoices_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_singlerow.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/singlerow.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\squid_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_results_design.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\results_design.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/menu-v26_burger_res.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/menu-v26/burger_res.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_back_arrow.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_back_arrow.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_help.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_help.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_verkhovna_rada_election.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_verkhovna_rada_election.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_rspsans.ttf.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\rspsans.ttf"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_referendum_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/referendum_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_profile_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_profile_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_info_shape.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/info_shape.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_expandmore_btn.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\expandmore_btn.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_sure_window.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\sure_window.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-mdpi_squid_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-mdpi/squid_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_background_border.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/background_border.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vote_logo.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\vote_logo.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_squid.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxxhdpi/squid.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_basic.ttf.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\basic.ttf"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_ic_city.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/ic_city.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_edit_profile_act.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_edit_profile_act.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_verdesign.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/verdesign.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_info_shape.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\info_shape.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_profile_email.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_profile_email.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_help.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_help.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_ver_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_all_ver_votes.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_profile_icon.jpg.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/profile_icon.jpg"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\squid_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_heades_gradient.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/heades_gradient.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_chart_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\chart_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_register_window.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_register_window.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_chairman.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/chairman.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\ic_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_back_arrow.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_back_arrow.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_city.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\ic_city.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xhdpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xhdpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_expand_less_btn.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/expand_less_btn.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\ic_circle.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_mainmenu_act.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/mainmenu_act.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_sure_background.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\button_sure_background.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_president_recycle_design.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/president_recycle_design.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_window.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_register_window.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_white_house.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/white_house.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_back_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\back_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_results.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_results.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_mainmenu_act.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\mainmenu_act.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_home_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/home_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-hdpi_squid_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-hdpi/squid_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_password.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_password.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_expand_less_btn.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\expand_less_btn.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_profile_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_email.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_email.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_icon.jpg.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\profile_icon.jpg"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_chart_icon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/chart_icon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_chart_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\chart_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_profile_password.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_profile_password.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_passport.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\ic_passport.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_pop_bg.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/pop_bg.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_ic_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/ic_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_squid_round.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xxxhdpi\\squid_round.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_squid.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-anydpi-v26\\squid.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_emailus_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/emailus_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_city_votes.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_city_votes.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_help.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_help.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_icon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_icon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_button_sure_background.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/button_sure_background.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_singlerow.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\singlerow.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_rspsans.ttf.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/rspsans.ttf"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_phone.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_phone.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_burger_btn.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/burger_btn.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_squid_foreground.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-xhdpi\\squid_foreground.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_squid_foreground.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xxhdpi/squid_foreground.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\menu_burger_res.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\menu\\burger_res.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_shape_pass_change.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/shape_pass_change.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verkhovna_rada_election.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_verkhovna_rada_election.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_squid.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xhdpi/squid.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_act.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_profile_act.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable_ic_passport.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable/ic_passport.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_background_border_choosing_el.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/background_border_choosing_el.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_president_election.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_president_election.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-mdpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_burger_btn.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\burger_btn.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_white_house.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\white_house.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_selector_expand.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/selector_expand.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_settingsicon.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/settingsicon.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settingsicon.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\settingsicon.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_profile_phone.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_profile_phone.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_back_arrow.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_back_arrow.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-v24_election.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/drawable-v24/election.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_password.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_password.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_logout_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v24/logout_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heades_gradient.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable\\heades_gradient.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/font_bgb.ttf.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/font/bgb.ttf"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_president_recycle_design.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\president_recycle_design.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_profile_email.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_profile_email.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_election_act.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_election_act.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile_phone.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_profile_phone.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_phone.png.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_phone.png"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/layout_activity_election_act.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/layout/activity_election_act.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_logout_icon.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\logout_icon.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_squid_round.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/src/main/res/mipmap-xhdpi/squid_round.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\font_bgb.ttf.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\font\\bgb.ttf"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_chart_icon.xml.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-anydpi-v21/chart_icon.xml"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_city_elections.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\layout\\activity_city_elections.xml"
     },
     {
-        "merged": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile_password.png.flat",
-        "source": "/home/golem/Рабочий стол/Android/PrZespolowy4/CountryZespolowy/app/build/generated/res/pngs/debug/drawable-hdpi/ic_profile_password.png"
+        "merged": "D:\\CountryZespolowy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_selector_expand.xml.flat",
+        "source": "D:\\CountryZespolowy\\app\\src\\main\\res\\drawable-v24\\selector_expand.xml"
     }
 ]
